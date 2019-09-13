@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{3b233494-fedf-4244-9fbc-f6db264070ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="callback">
+      <UniqueIdentifier>{3a744521-7dd3-4ade-8f5e-b40dbac764bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk\sdk_client.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk_instance.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk_vchat.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="callback\client_callback.h">
+      <Filter>callback</Filter>
+    </ClInclude>
+    <ClInclude Include="callback\vchat_callback.h">
+      <Filter>callback</Filter>
+    </ClInclude>
+    <ClInclude Include="device_event_handler.h" />
+    <ClInclude Include="nim_service.h" />
+    <ClInclude Include="vchat_event_handler.h" />
+    <ClInclude Include="sdk\sdk_device.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="callback\device_callback.h">
+      <Filter>callback</Filter>
+    </ClInclude>
+    <ClInclude Include="nim_settings.h" />
+    <ClInclude Include="client_event_handler.h" />
+    <ClInclude Include="sdk\sdk_subscribe_event.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk\sdk_sysmsg.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="callback\sysmsg_callback.h">
+      <Filter>callback</Filter>
+    </ClInclude>
+    <ClInclude Include="callback\subscribe_event_callback.h">
+      <Filter>callback</Filter>
+    </ClInclude>
+    <ClInclude Include="sysmsg_event_handler.h" />
+    <ClInclude Include="sdk\sdk_global.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sdk\sdk_instance.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk_vchat.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk_client.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="callback\client_callback.cpp">
+      <Filter>callback</Filter>
+    </ClCompile>
+    <ClCompile Include="callback\vchat_callback.cpp">
+      <Filter>callback</Filter>
+    </ClCompile>
+    <ClCompile Include="nim_service.cpp" />
+    <ClCompile Include="sdk\sdk_device.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="callback\device_callback.cpp">
+      <Filter>callback</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk_sysmsg.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="callback\sysmsg_callback.cpp">
+      <Filter>callback</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk_subscribe_event.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="callback\subscribe_event_callback.cpp">
+      <Filter>callback</Filter>
+    </ClCompile>
+    <ClCompile Include="sdk\sdk_global.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

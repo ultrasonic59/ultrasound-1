@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_SQL_LIB;QT_SVG_LIB;QT_MULTIMEDIA_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\third_party\libyuv\build\Debug;$(SolutionDir)\third_party\curl-7.61.0\build\lib\Debug;$(SolutionDir)\third_party\zlib-1.2.11\build\Debug;$(SolutionDir)\sdk\aliyun-oss-c-sdk-3.5.0\oss_c_sdk\Debug;$(SolutionDir)\third_party\apr-1.6.3\build_output\Debug;$(SolutionDir)\third_party\apr-util-1.6.1\build_output\Debug;$(SolutionDir)\third_party\mxml-2.11\mxml\Debug;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp\QR-Code-generator-1.4.0\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Widgetsd.lib;yuv.lib;zlibstaticd.lib;libcurl-d.lib;Wldap32.lib;ws2_32.lib;crypt32.lib;Qt5PrintSupportd.lib;Qt5Sqld.lib;Qt5Svgd.lib;Qt5Multimediad.lib;oss_c_sdk.lib;apr-1.lib;aprutil-1.lib;mxml.lib;Rpcrt4.lib;QR-Code-generator-1.4.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>UNICODE;WIN32;WIN64;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_SQL_LIB;QT_SVG_LIB;QT_MULTIMEDIA_LIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_SQL_LIB;QT_SVG_LIB;QT_MULTIMEDIA_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\third_party\libyuv\build\Release;$(SolutionDir)\third_party\curl-7.61.0\build\lib\Release;$(SolutionDir)\third_party\zlib-1.2.11\build\Release;$(SolutionDir)\sdk\aliyun-oss-c-sdk-3.5.0\oss_c_sdk\Release;$(SolutionDir)\third_party\apr-1.6.3\build_output\Release;$(SolutionDir)\third_party\apr-util-1.6.1\build_output\Release;$(SolutionDir)\third_party\mxml-2.11\mxml\Release;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp\QR-Code-generator-1.4.0\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;yuv.lib;zlibstatic.lib;libcurl.lib;Wldap32.lib;ws2_32.lib;crypt32.lib;Qt5PrintSupport.lib;Qt5Sql.lib;Qt5Svg.lib;Qt5Multimedia.lib;oss_c_sdk.lib;apr-1.lib;aprutil-1.lib;mxml.lib;Rpcrt4.lib;QR-Code-generator-1.4.0.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp;%(AdditionalIncludeDirectories)</IncludePath>
+      <Define>UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_SQL_LIB;QT_SVG_LIB;QT_MULTIMEDIA_LIB;%(PreprocessorDefinitions)</Define>
+    </QtMoc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\app\ClickableLabel.cpp" />
+    <ClCompile Include="..\app\image_viewer.cpp" />
+    <ClCompile Include="..\app\IOThreadWorker.cpp" />
+    <ClCompile Include="..\app\SystemMessageViewer.cpp" />
+    <ClCompile Include="..\third_party\simplecrypt\simplecrypt.cpp" />
+    <ClCompile Include="audio_device_setting.cpp" />
+    <ClCompile Include="call.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="device_setting.cpp" />
+    <ClCompile Include="GeneratedFiles\qrc_ultrasound.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="profile.cpp" />
+    <ClCompile Include="qr_code_generator.cpp" />
+    <ClCompile Include="report_html.cpp" />
+    <ClCompile Include="report_query.cpp" />
+    <ClCompile Include="report_template.cpp" />
+    <ClCompile Include="report_template_cloud.cpp" />
+    <ClCompile Include="report_template_cloud_model.cpp" />
+    <ClCompile Include="report_template_cloud_view.cpp" />
+    <ClCompile Include="report_template_disease_name_add.cpp" />
+    <ClCompile Include="report_template_disease_type_add.cpp" />
+    <ClCompile Include="report_template_my.cpp" />
+    <ClCompile Include="report_thread_worker.cpp" />
+    <ClCompile Include="ultrasound.cpp" />
+    <ClCompile Include="update_password.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ultrasound.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="audio_device_setting.ui" />
+    <QtUic Include="call.ui" />
+    <QtUic Include="device_setting.ui" />
+    <QtUic Include="login.ui" />
+    <QtUic Include="profile.ui" />
+    <QtUic Include="report_query.ui" />
+    <QtUic Include="report_template.ui" />
+    <QtUic Include="report_template_cloud_view.ui" />
+    <QtUic Include="report_template_disease_name_add.ui" />
+    <QtUic Include="report_template_disease_type_add.ui" />
+    <QtUic Include="ultrasound.ui" />
+    <QtUic Include="update_password.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ultrasound.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\base\base.vcxproj">
+      <Project>{83e3c936-52c9-468b-8c65-a2fb062e2dbd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\core_service\core_service.vcxproj">
+      <Project>{674efcdc-c1b7-45fd-b035-0b3afdbad155}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\dshow_input\dshow_input.vcxproj">
+      <Project>{7b2fd7f1-3fbf-4fba-9716-973c3efbb879}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\net_service\net_service.vcxproj">
+      <Project>{6f215b48-e8e0-404e-83d1-db80b43c6c8b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\nim_service\nim_service.vcxproj">
+      <Project>{7829dc78-0060-4eed-b398-2ae4e499335a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\oss_service\oss_service.vcxproj">
+      <Project>{5017de92-7196-494c-a29e-0cccbeb207ee}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\app\image_viewer.h" />
+    <QtMoc Include="..\app\ClickableLabel.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <ClInclude Include="..\app\IOThreadWorker.h" />
+    <QtMoc Include="..\app\SystemMessageViewer.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <ClInclude Include="..\app\ultrasound_system_message_id.h" />
+    <ClInclude Include="..\third_party\simplecrypt\simplecrypt.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="qr_code_generator.h" />
+    <ClInclude Include="report_html.h" />
+    <QtMoc Include="report_template_cloud.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <QtMoc Include="report_template_my.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <QtMoc Include="report_template_base.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <ClInclude Include="report_template_cloud_model.h" />
+    <QtMoc Include="report_template_disease_type_add.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <QtMoc Include="report_template_disease_name_add.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <QtMoc Include="report_template_cloud_view.h">
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtANGLE;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\libyuv\include;$(QTDIR)\include\QtPrintSupport;$(QTDIR)\include\QtSql;$(QTDIR)\include\QtSvg;$(QTDIR)\include\QtMultimedia;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\third_party\QR-Code-generator-1.4.0\cpp</IncludePath>
+    </QtMoc>
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="report_query.h" />
+    <QtMoc Include="update_password.h" />
+    <QtMoc Include="report_thread_worker.h" />
+    <QtMoc Include="profile.h" />
+    <QtMoc Include="report_template.h" />
+    <QtMoc Include="device_setting.h" />
+    <QtMoc Include="call.h" />
+    <QtMoc Include="audio_device_setting.h" />
+    <ClInclude Include="GeneratedFiles\ui_ultrasound.h" />
+    <QtMoc Include="login.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\qtbase_zh_CN.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ultrasound.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ultrasound.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="msvc2015" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

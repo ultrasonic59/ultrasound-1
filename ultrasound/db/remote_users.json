@@ -1,0 +1,11 @@
+{
+    "remote_users" : [
+      { "id" : "ddp01", "name" : "刘强",   "title" : "主任医师",   "speciality" : "腹部，心脏，甲状腺，乳腺，血管，小器官",             "hospital" : "",                "hospital_grade" : "三甲"},
+      { "id" : "ddp02", "name" : "郑恒",   "title" : "副主任医师", "speciality" : "腹部，心脏，产科，妇科，甲状腺，乳腺，血管，小器官", "hospital" : "盐亭县人民医院",  "hospital_grade" : "三乙"},
+      { "id" : "ddp03", "name" : "胥宝芹", "title" : "副主任医师", "speciality" : "腹部，心脏，产科，妇科，甲状腺，乳腺，血管，小器官", "hospital" : "盐亭肿瘤医院",    "hospital_grade" : "二甲"},
+      { "id" : "ddp04", "name" : "何艳华", "title" : "主治医师",   "speciality" : "腹部，心脏，产科，妇科，甲状腺，乳腺，小器官",       "hospital" : "盐亭县人民医院",  "hospital_grade" : "三乙"},
+      { "id" : "ddp05", "name" : "程瑞洪", "title" : "主任医师",   "speciality" : "腹部，心脏，产科，妇科，甲状腺，乳腺，血管，小器官", "hospital" : "四川绵阳四0四医院", "hospital_grade" : "三甲"},
+      { "id" : "ddp06", "name" : "刘雪容", "title" : "主治医师",   "speciality" : "腹部，产科，妇科",                                   "hospital" : "盐亭县人民医院",  "hospital_grade" : "三乙"},
+      { "id" : "weiduolee1", "name" : "李维多", "title" : "测试", "speciality" : "测试", "hospital" : "测试", "hospital_grade" : "测试"}
+    ]
+}

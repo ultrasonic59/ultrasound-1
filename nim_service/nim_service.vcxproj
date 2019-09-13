@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="callback\client_callback.h" />
+    <ClInclude Include="callback\device_callback.h" />
+    <ClInclude Include="callback\subscribe_event_callback.h" />
+    <ClInclude Include="callback\sysmsg_callback.h" />
+    <ClInclude Include="callback\vchat_callback.h" />
+    <ClInclude Include="device_event_handler.h" />
+    <ClInclude Include="client_event_handler.h" />
+    <ClInclude Include="nim_service.h" />
+    <ClInclude Include="nim_settings.h" />
+    <ClInclude Include="sdk\sdk_global.h" />
+    <ClInclude Include="sdk\sdk_client.h" />
+    <ClInclude Include="sdk\sdk_device.h" />
+    <ClInclude Include="sdk\sdk_instance.h" />
+    <ClInclude Include="sdk\sdk_subscribe_event.h" />
+    <ClInclude Include="sdk\sdk_sysmsg.h" />
+    <ClInclude Include="sdk\sdk_vchat.h" />
+    <ClInclude Include="sysmsg_event_handler.h" />
+    <ClInclude Include="vchat_event_handler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="callback\client_callback.cpp" />
+    <ClCompile Include="callback\device_callback.cpp" />
+    <ClCompile Include="callback\subscribe_event_callback.cpp" />
+    <ClCompile Include="callback\sysmsg_callback.cpp" />
+    <ClCompile Include="callback\vchat_callback.cpp" />
+    <ClCompile Include="nim_service.cpp" />
+    <ClCompile Include="sdk\sdk_global.cpp" />
+    <ClCompile Include="sdk\sdk_client.cpp" />
+    <ClCompile Include="sdk\sdk_device.cpp" />
+    <ClCompile Include="sdk\sdk_instance.cpp" />
+    <ClCompile Include="sdk\sdk_subscribe_event.cpp" />
+    <ClCompile Include="sdk\sdk_sysmsg.cpp" />
+    <ClCompile Include="sdk\sdk_vchat.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7829DC78-0060-4EED-B398-2AE4E499335A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>nim_service</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NIMAPI_UNDER_WIN_DESKTOP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\api;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\include;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\util</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;NIMAPI_UNDER_WIN_DESKTOP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\api;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\include;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\util</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;NIMAPI_UNDER_WIN_DESKTOP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\api;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\include;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\util</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Lib>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;NIMAPI_UNDER_WIN_DESKTOP_ONLY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\api;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\include;$(SolutionDir)\sdk\NIM_PC_SDK_x86_x64_v5.6.0\nim_c_sdk\util</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

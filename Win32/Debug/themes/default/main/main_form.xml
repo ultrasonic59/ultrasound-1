@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 实际窗口的size是(996+28,670+28) -->
+<Window size="996,660" mininfo="996,660" caption="0,0,0,44" sizebox="4,4,4,4" shadowattached="false">
+	<Box>
+		<VBox width="stretch" height="stretch" bkcolor="bk_mainwnd_title_and_bottom">
+			<!-- 标题栏，高度44 -->
+			<HBox class="caption" name="caption_hbox">
+				<Label class="font_title" width="stretch" margin="20,0,0,0" valign="center" normaltextcolor="white" text="网易视频云-播放器"/>
+				<Button name="minbtn" margin="0,0,20,0" normalimage="icon_smallwindow_n.png" hotimage="icon_smallwindow_h.png" pushedimage="icon_smallwindow_p.png" valign="center" tooltiptext="最小化"/>
+				<Box width="16" height="16" margin="0,0,20,0" valign="center">
+					<Button name="maxbtn"  normalimage="icon_halfwindow_n.png" hotimage="icon_halfwindow_h.png" pushedimage="icon_halfwindow_p.png"  valign="center" tooltiptext="最大化"/>
+					<Button name="restorebtn" visible="false" normalimage="icon_bigwindow_n.png" hotimage="icon_bigwindow_h.png" pushedimage="icon_bigwindow_p.png" valign="center" tooltiptext="还原"/>
+				</Box>
+				<Button name="closebtn" margin="0,0,20,0" normalimage="icon_close_n.png" hotimage="icon_close_h.png" pushedimage="icon_close_p.png" valign="center" tooltiptext="关闭"/>
+			</HBox>
+			<TabBox name="display_box" width="stretch" height="stretch" bkcolor="combo_element_hor">
+				<Control name="logo" width="auto" height="auto" halign="center" valign="center" bkimage="logo.png"/>
+				<Control name="loading" width="60" height="60" halign="center" valign="center" bkimage="loading.gif"/>
+				<VBox name="refresh_box" width="auto" height="auto" halign="center" valign="center">
+					<Label name="link_error" width="auto" height="auto" halign="center" font="1" normaltextcolor="bk_link_error_text" text="播放失败，请刷新重试！"/>
+					<Button name="refresh" width="auto" height="40" margin="0,10" text="立即刷新" font="1" bordersize="1" bordercolor="bk_border_url_edit" normaltextcolor="bk_link_error_text"/>
+				</VBox>
+				<!-- 画布 -->
+				<BitmapControl name="video_display" width="stretch" height="stretch" bkcolor="combo_element_hor"/>
+			</TabBox>
+			<VBox width="stretch" height="68">
+				<!-- 播放进度条 -->
+				<Slider name="playing_progress" width="stretch" height="10" bkcolor="bk_slider_duration"
+						progresscolor="bk_slider_duration_up" visible="false" max="10000" min="0" value="0"/>
+				<!-- 底部设置栏 -->
+				<HBox width="stretch" height="stretch" valign="center" bkcolor="bk_mainwnd_title_and_bottom" >
+					<Box width="90" height="30" margin="20,0,0,0" valign="center">
+						<Combo name="source_type" width="stretch" height="stretch" bkcolor="bk_url_edit" bordersize="1" bordercolor="bk_border_url_edit" >
+							<ListContainerElement height="30" bkcolor="bk_url_edit" hotcolor="combo_element_hor" text="在线直播" font="1" normaltextcolor="combo_element_text_nom"  hottextcolor="combo_element_text_hor" textpadding="10,0,0,0" selected="true"/>
+							<ListContainerElement height="30" bkcolor="bk_url_edit" hotcolor="combo_element_hor" text="在线点播" font="1" normaltextcolor="combo_element_text_nom"  hottextcolor="combo_element_text_hor" textpadding="10,0,0,0" />
+							<ListContainerElement height="30" bkcolor="bk_url_edit" hotcolor="combo_element_hor" text="本地文件" font="1" normaltextcolor="combo_element_text_nom"  hottextcolor="combo_element_text_hor" textpadding="10,0,0,0"/>
+						</Combo>
+						<Control width="auto" height="auto" bkimage="combox_n.png" halign="right" valign="center" margin="0,0,10,0" mouse="false"/>
+					</Box>
+					<HBox width="440" height="30" margin="20,0,0,0" bordersize="1"  bordercolor="bk_border_url_edit"  valign="center"  >
+						<RichEdit name="url" height="28" margin= "1,0,1,0" bkcolor="bk_url_edit" valign="center"  align="vcenter" font="1" multiline="false" padding="10,0,0,0" normaltextcolor="white" disabledtextcolor="bk_url_edit_text" prompttext="请输入拉流地址（Ctrl+V粘贴）" promptcolor="bk_url_edit_text" borderround="2,2" autohscroll="true" menu="true"/>
+						<Button name="scan_local_file" visible="false" height="28" width="75" margin= "0,0,1,0" leftbordersize="1" bordercolor="bk_border_url_edit" bkcolor="bk_url_edit" valign="center"  normaltextcolor="white" font="1" text="浏览"/>
+					</HBox>
+					<Box width="auto" height="auto" margin="10,0,0,0" valign="center">
+						<Button name="volume_btn" menu="true" tooltiptext="左键单击调节音量，右键单击静音或取消静音"
+							normalimage="icon_voice_n.png" hotimage="icon_voice_h.png" pushedimage="icon_voice_p.png" disabledimage="icon_voice_n.png"/>
+						<Button name="volume_mute_btn" menu="true" visible="false" tooltiptext="左键单击调节音量，右键单击静音或取消静音"
+							normalimage="icon_voice_f_n.png" hotimage="icon_voice_f_h.png" pushedimage="icon_voice_f_p.png" disabledimage="icon_voice_f_n.png"/>
+					</Box>
+					<Button name="snapshot" margin="10,0,0,0" valign="center" tooltiptext="截图" enabled="false"
+							normalimage="icon_screenshot_n.png" hotimage="icon_screenshot_h.png" pushedimage="icon_screenshot_p.png" disabledimage="icon_screenshot_n.png"/>
+					<Control />
+					<Label name="duration" height="30" width="auto" margin="0,0,10,0"  valign="center" align="vcenter" visible="true" font="1" normaltextcolor="combo_element_text_nom"/>
+					<TabBox name="start_or_pause_box" width="auto" height="auto" margin="0,0,10,0" valign="center">
+						<Button name="start" normaltextcolor="white" font="1" text="开始" enabled="false" normalimage="btn_start_n.png" hotimage="btn_start_h.png" pushedimage="btn_start_p.png" disabledimage="btn_start_n.png"/>
+						<Button name="pause" normaltextcolor="white" font="1" text="暂停" normalimage="btn_stop_n.png" hotimage="btn_stop_h.png" pushedimage="btn_stop_p.png" disabledimage="btn_stop_n.png"/>
+						<Button name="resume" normaltextcolor="white" font="1" text="继续" normalimage="btn_start_n.png" hotimage="btn_start_h.png" pushedimage="btn_start_p.png" disabledimage="btn_start_n.png"/>
+					</TabBox>
+					<Button name="stop" normaltextcolor="white" margin="0,0,10,0" valign="center" text="停止" font="1" enabled="false" normalimage="btn_stop_n.png" hotimage="btn_stop_h.png" pushedimage="btn_stop_p.png" disabledimage="btn_stop_n.png"/>
+				</HBox>
+			</VBox>
+		</VBox>
+		<VBox name="volume_box" valign="bottom" visible="false" width="40" height="140" bkimage="slider_bkgnd.png" borderround="4,4" bkcolor="bk_border_volume">
+			<Label name="out_volume_label" halign="center" height="auto" width="auto" margin="0,5,0,5" text="  " valign="center" normaltextcolor="white" font="1" />
+			<Slider name="volume_slider" width="11" height="100" halign="center" hor="false" thumbsize="11,11" min="0" max="100" value="100" bkimage="file='slider_ver_bk.png' dest='3,0,7,100'" progressimage="file='slider_ver_up.png' dest='3,0,7,100'" progressbarpadding="3,0,4,0" thumbnormalimage="slider_thump.png"/>
+		</VBox>
+	</Box>
+</Window>

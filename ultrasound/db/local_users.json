@@ -1,0 +1,14 @@
+{
+    "local_users" : [
+      { "id" : "ddu01", "name" : "郑玉",   "hospital" : "盐亭县人民医院"},
+      { "id" : "ddu02", "name" : "李嘉瑞", "hospital" : "盐亭县茶亭乡卫生院"},
+      { "id" : "ddu03", "name" : "陈波",   "hospital" : "来龙乡卫生院"},
+      { "id" : "ddu04", "name" : "袁桂婧", "hospital" : "盐亭县剑河乡卫生院"},
+      { "id" : "ddu05", "name" : "李霞",   "hospital" : "盐亭县玉龙镇中心卫生院"},
+      { "id" : "ddu06", "name" : "寇桂",   "hospital" : "八角镇中心卫生院"},
+      { "id" : "ddu07", "name" : "冯东",   "hospital" : "盐亭县石牛庙乡卫生院"},
+      { "id" : "ddu08", "name" : "陈波",   "hospital" : "盐亭县富驿镇中心卫生院"},
+      { "id" : "ddu09", "name" : "曾秀兰", "hospital" : "柏梓镇中心卫生院"},
+      { "id" : "ddu10", "name" : "赵先春", "hospital" : "盐亭民兴医院"}
+    ]
+}

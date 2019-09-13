@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/ultrasound">
+        <file>res/microphone16x16.png</file>
+        <file>res/microphone24x24.png</file>
+        <file>res/speaker16x16.png</file>
+        <file>res/speaker24x24.png</file>
+        <file>res/qr.bmp</file>
+        <file>res/hr.png</file>
+        <file>res/white.png</file>
+        <file>res/caller_ringing.wav</file>
+        <file>res/qtbase_zh_CN.qm</file>
+        <file>ultrasound.ico</file>
+        <file>res/cloud-template.png</file>
+        <file>res/local-template.png</file>
+        <file alias="add">res/add16x16.png</file>
+        <file alias="remove">res/remove16x16 .png</file>
+    </qresource>
+</RCC>

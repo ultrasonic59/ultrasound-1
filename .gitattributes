@@ -1,0 +1,412 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+
+###############################################################################
+# Set default behavior for command prompt diff.
+#
+# This is need for earlier builds of msysgit that does not have it on by
+# default for csharp files.
+# Note: This is only used by command line
+###############################################################################
+#*.cs     diff=csharp
+
+###############################################################################
+# Set the merge driver for project and solution files
+#
+# Merging from the command prompt will add diff markers to the files if there
+# are conflicts (Merging from VS is not affected by the settings below, in VS
+# the diff markers are never inserted). Diff markers may cause the following 
+# file extensions to fail to load in VS. An alternative would be to treat
+# these files as binary and thus will always conflict and require user
+# intervention with every merge. To do so, just uncomment the entries below
+###############################################################################
+#*.sln       merge=binary
+#*.csproj    merge=binary
+#*.vbproj    merge=binary
+#*.vcxproj   merge=binary
+#*.vcproj    merge=binary
+#*.dbproj    merge=binary
+#*.fsproj    merge=binary
+#*.lsproj    merge=binary
+#*.wixproj   merge=binary
+#*.modelproj merge=binary
+#*.sqlproj   merge=binary
+#*.wwaproj   merge=binary
+
+###############################################################################
+# behavior for image files
+#
+# image files are treated as binary by default.
+###############################################################################
+#*.jpg   binary
+#*.png   binary
+#*.gif   binary
+
+###############################################################################
+# diff behavior for common document formats
+# 
+# Convert binary document formats to text before diffing them. This feature
+# is only available from the command line. Turn it on by uncommenting the 
+# entries below.
+###############################################################################
+#*.doc   diff=astextplain
+#*.DOC   diff=astextplain
+#*.docx  diff=astextplain
+#*.DOCX  diff=astextplain
+#*.dot   diff=astextplain
+#*.DOT   diff=astextplain
+#*.pdf   diff=astextplain
+#*.PDF   diff=astextplain
+#*.rtf   diff=astextplain
+#*.RTF   diff=astextplain
+
+
+.gitattributes merge=ours
+.gitignore merge=ours
+README.md merge=ours
+
+Win32/Debug/db/template.db merge=ours
+Win32/Debug/ffplay.exe merge=ours
+Win32/Debug/msvcp100.dll merge=ours
+Win32/Debug/msvcr100.dll merge=ours
+Win32/Debug/nim.dll merge=ours
+Win32/Debug/nim_audio.dll merge=ours
+Win32/Debug/nim_audio_hook.dll merge=ours
+Win32/Debug/nim_chatroom.dll merge=ours
+Win32/Debug/nim_conf/ver_ctrl.dll merge=ours
+Win32/Debug/nim_tools_http.dll merge=ours
+Win32/Debug/nrtc.dll merge=ours
+Win32/Debug/nrtc_audio_process.dll merge=ours
+Win32/Release/D3Dcompiler_47.dll merge=ours
+Win32/Release/Qt5Core.dll merge=ours
+Win32/Release/Qt5Gui.dll merge=ours
+Win32/Release/Qt5Multimedia.dll merge=ours
+Win32/Release/Qt5Network.dll merge=ours
+Win32/Release/Qt5PrintSupport.dll merge=ours
+Win32/Release/Qt5Sql.dll merge=ours
+Win32/Release/Qt5Svg.dll merge=ours
+Win32/Release/Qt5Widgets.dll merge=ours
+Win32/Release/audio/qtaudio_windows.dll merge=ours
+Win32/Release/bearer/qgenericbearer.dll merge=ours
+Win32/Release/bearer/qnativewifibearer.dll merge=ours
+Win32/Release/db/template.dbl merge=ours
+Win32/Release/iconengines/qsvgicon.dll merge=ours
+Win32/Release/imageformats/qdds.dll merge=ours
+Win32/Release/imageformats/qgif.dll merge=ours
+Win32/Release/imageformats/qicns.dll merge=ours
+Win32/Release/imageformats/qico.dll merge=ours
+Win32/Release/imageformats/qjpeg.dll merge=ours
+Win32/Release/imageformats/qsvg.dll merge=ours
+Win32/Release/imageformats/qtga.dll merge=ours
+Win32/Release/imageformats/qtiff.dll merge=ours
+Win32/Release/imageformats/qwbmp.dll merge=ours
+Win32/Release/imageformats/qwebp.dll merge=ours
+Win32/Release/libEGL.dll merge=ours
+Win32/Release/libGLESV2.dll merge=ours
+Win32/Release/mediaservice/dsengine.dll merge=ours
+Win32/Release/mediaservice/qtmedia_audioengine.dll merge=ours
+Win32/Release/msvcp100.dll merge=ours
+Win32/Release/msvcr100.dll merge=ours
+Win32/Release/nim.dll merge=ours
+Win32/Release/nim_audio.dll merge=ours
+Win32/Release/nim_audio_hook.dll merge=ours
+Win32/Release/nim_chatroom.dll merge=ours
+Win32/Release/nim_conf/ver_ctrl.dll merge=ours
+Win32/Release/nim_tools_http.dll merge=ours
+Win32/Release/nrtc.dll merge=ours
+Win32/Release/nrtc_audio_process.dll merge=ours
+Win32/Release/opengl32sw.dll merge=ours
+Win32/Release/platforms/qwindows.dll merge=ours
+Win32/Release/playlistformats/qtmultimedia_m3u.dll merge=ours
+Win32/Release/printsupport/windowsprintersupport.dll merge=ours
+Win32/Release/sqldrivers/qsqlite.dll merge=ours
+Win32/Release/sqldrivers/qsqlmysql.dll merge=ours
+Win32/Release/sqldrivers/qsqlpsql.dll merge=ours
+Win32/Release/translations/qt_ca.qm merge=ours
+Win32/Release/translations/qt_cs.qm merge=ours
+Win32/Release/translations/qt_de.qm merge=ours
+Win32/Release/translations/qt_en.qm merge=ours
+Win32/Release/translations/qt_fi.qm merge=ours
+Win32/Release/translations/qt_fr.qm merge=ours
+Win32/Release/translations/qt_he.qm merge=ours
+Win32/Release/translations/qt_hu.qm merge=ours
+Win32/Release/translations/qt_it.qm merge=ours
+Win32/Release/translations/qt_ja.qm merge=ours
+Win32/Release/translations/qt_ko.qm merge=ours
+Win32/Release/translations/qt_lv.qm merge=ours
+Win32/Release/translations/qt_ru.qm merge=ours
+Win32/Release/translations/qt_sk.qm merge=ours
+Win32/Release/translations/qt_uk.qm merge=ours
+Win32/Release/ultrasound.exe merge=ours
+Win32/Release/ultrasound_consultant.exe merge=ours
+Win32/Release/vc2015_redist.x86.exe merge=ours
+net_service/net_service.vcxproj merge=ours.user merge=ours
+nim_service/nim_service.vcxproj merge=ours.user merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs10_md/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs10_md/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs10_mt/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs10_mt/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs13_md/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs13_md/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs13_mt/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x64/vs13_mt/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs10_md/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs10_md/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs10_mt/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs10_mt/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs13_md/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs13_md/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs13_mt/jsoncpp.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/libs/x86/vs13_mt/jsoncpp_d.lib merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcp100.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcp100d.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcp120.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcp120d.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcr100.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcr100d.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcr120.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/msvcr120d.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nim.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nim_audio.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nim_chatroom.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nim_conf/ver_ctrl.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nim_tools_http.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nrtc.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x64_dlls/nrtc_audio_process.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/msvcp100.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/msvcr100.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nim.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nim_audio.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nim_audio_hook.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nim_chatroom.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nim_conf/ver_ctrl.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nim_tools_http.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nrtc.dll merge=ours
+sdk/NIM_PC_SDK_x86_x64_v5.6.0/x86_dlls/nrtc_audio_process.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/oss_c_sdk/Debug/oss_c_sdk.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/oss_c_sdk/Debug/oss_c_sdk.pdb merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/oss_c_sdk/Release/oss_c_sdk.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/MSVCP71.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/curl.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/gpsvc.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/ieshims.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/libapr-1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/libapr-1.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/libaprutil-1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/libaprutil-1.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/libcurl.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/libeay32.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/msvcr71.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/mxml1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/mxml1.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/ssleay32.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Debug/zlib1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/MSVCP71.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/curl.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/gpsvc.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/ieshims.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/libapr-1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/libapr-1.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/libaprutil-1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/libaprutil-1.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/libcurl.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/libeay32.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/msvcr71.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/mxml1.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/mxml1.lib merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/ssleay32.dll merge=ours
+sdk/aliyun-oss-c-sdk-3.5.0/third_party/lib/Release/zlib1.dll merge=ours
+third_party/apr-1.6.3/build_output/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe merge=ours
+third_party/apr-1.6.3/build_output/Debug/apr-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Debug/aprapp-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Debug/gen_test_char.exe merge=ours
+third_party/apr-1.6.3/build_output/Debug/libapr-1.dll merge=ours
+third_party/apr-1.6.3/build_output/Debug/libapr-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Debug/libaprapp-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Release/apr-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Release/aprapp-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Release/gen_test_char.exe merge=ours
+third_party/apr-1.6.3/build_output/Release/libapr-1.dll merge=ours
+third_party/apr-1.6.3/build_output/Release/libapr-1.exp merge=ours
+third_party/apr-1.6.3/build_output/Release/libapr-1.lib merge=ours
+third_party/apr-1.6.3/build_output/Release/libaprapp-1.lib merge=ours
+third_party/apr-1.6.3/build_output/libapr-1.dir/Release/libapr.res merge=ours
+third_party/apr-util-1.6.1/build_output/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/apr_dbd_odbc-1.dll merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/apr_dbd_odbc-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/apr_ldap-1.dll merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/apr_ldap-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/aprutil-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/libaprutil-1.dll merge=ours
+third_party/apr-util-1.6.1/build_output/Debug/libaprutil-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Release/apr_dbd_odbc-1.dll merge=ours
+third_party/apr-util-1.6.1/build_output/Release/apr_dbd_odbc-1.exp merge=ours
+third_party/apr-util-1.6.1/build_output/Release/apr_dbd_odbc-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Release/apr_ldap-1.dll merge=ours
+third_party/apr-util-1.6.1/build_output/Release/apr_ldap-1.exp merge=ours
+third_party/apr-util-1.6.1/build_output/Release/apr_ldap-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Release/aprutil-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/Release/libaprutil-1.dll merge=ours
+third_party/apr-util-1.6.1/build_output/Release/libaprutil-1.exp merge=ours
+third_party/apr-util-1.6.1/build_output/Release/libaprutil-1.lib merge=ours
+third_party/apr-util-1.6.1/build_output/apr_dbd_odbc-1.dir/Release/libaprutil.res merge=ours
+third_party/apr-util-1.6.1/build_output/apr_ldap-1.dir/Release/libaprutil.res merge=ours
+third_party/apr-util-1.6.1/build_output/libaprutil-1.dir/Release/libaprutil.res merge=ours
+third_party/curl-7.61.0/build/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe merge=ours
+third_party/curl-7.61.0/build/lib/Debug/libcurl-d.lib merge=ours
+third_party/curl-7.61.0/build/lib/Release/libcurl.lib merge=ours
+third_party/curl-7.61.0/build/lib/libcurl.dir/Release/libcurl.res merge=ours
+third_party/curl-7.61.0/build/lib/libcurl.vcxproj merge=ours.user merge=ours
+third_party/curl-7.61.0/build/src/Debug/curl.exe merge=ours
+third_party/curl-7.61.0/build/src/Release/curl.exe merge=ours
+third_party/curl-7.61.0/build/src/curl.dir/Release/curl.res merge=ours
+third_party/jsoncpp-1.8.4/build/x86/CMakeCache.txt merge=ours
+third_party/jsoncpp-1.8.4/build/x86/pkg-config/jsoncpp.pc merge=ours
+third_party/jsoncpp-1.8.4/build/x86/src/jsontestrunner/Debug/jsontestrunner_exe.exe merge=ours
+third_party/jsoncpp-1.8.4/build/x86/src/jsontestrunner/Release/jsontestrunner_exe.exe merge=ours
+third_party/jsoncpp-1.8.4/build/x86/src/lib_json/Debug/jsoncpp.lib merge=ours
+third_party/jsoncpp-1.8.4/build/x86/src/lib_json/Release/jsoncpp.lib merge=ours
+third_party/jsoncpp-1.8.4/build/x86/src/test_lib_json/Debug/jsoncpp_test.exe merge=ours
+third_party/jsoncpp-1.8.4/build/x86/src/test_lib_json/Release/jsoncpp_test.exe merge=ours
+third_party/libyuv/build/x86/ALL_BUILD.vcxproj merge=ours
+third_party/libyuv/build/x86/ALL_BUILD.vcxproj merge=ours.filters
+third_party/libyuv/build/x86/CPackConfig.cmake merge=ours
+third_party/libyuv/build/x86/CPackSourceConfig.cmake merge=ours
+third_party/libyuv/build/x86/Debug/libyuv.dll merge=ours
+third_party/libyuv/build/x86/Debug/yuv.lib merge=ours
+third_party/libyuv/build/x86/Debug/yuvconvert.exe merge=ours
+third_party/libyuv/build/x86/INSTALL.vcxproj merge=ours
+third_party/libyuv/build/x86/INSTALL.vcxproj merge=ours.filters
+third_party/libyuv/build/x86/PACKAGE.vcxproj merge=ours
+third_party/libyuv/build/x86/PACKAGE.vcxproj merge=ours.filters
+third_party/libyuv/build/x86/Release/libyuv.dll merge=ours
+third_party/libyuv/build/x86/Release/yuv.lib merge=ours
+third_party/libyuv/build/x86/Release/yuvconvert.exe merge=ours
+third_party/libyuv/build/x86/YUV.sln merge=ours
+third_party/libyuv/build/x86/ZERO_CHECK.vcxproj merge=ours
+third_party/libyuv/build/x86/ZERO_CHECK.vcxproj merge=ours.filters
+third_party/libyuv/build/x86/yuv.vcxproj merge=ours
+third_party/libyuv/build/x86/yuv.vcxproj merge=ours.filters
+third_party/libyuv/build/x86/yuv_shared.vcxproj merge=ours
+third_party/libyuv/build/x86/yuv_shared.vcxproj merge=ours.filters
+third_party/libyuv/build/x86/yuvconvert.vcxproj merge=ours
+third_party/libyuv/build/x86/yuvconvert.vcxproj merge=ours.filters
+third_party/mxml-2.11/mxml/Debug/mxml.lib merge=ours
+third_party/mxml-2.11/mxml/Release/mxml.lib merge=ours
+third_party/mxml-2.11/vcnet/mxml1.dll merge=ours
+third_party/mxml-2.11/vcnet/mxml1.exp merge=ours
+third_party/mxml-2.11/vcnet/mxml1.ilk merge=ours
+third_party/mxml-2.11/vcnet/mxml1.lib merge=ours
+third_party/mxml-2.11/vcnet/mxml1.vcxproj merge=ours.user merge=ours
+third_party/openssl-1.0.2p/build/Debug/bin/openssl.exe merge=ours
+third_party/openssl-1.0.2p/build/Debug/lib/libeay32.lib merge=ours
+third_party/openssl-1.0.2p/build/Debug/lib/ssleay32.lib merge=ours
+third_party/openssl-1.0.2p/build/Release/bin/openssl.exe merge=ours
+third_party/openssl-1.0.2p/build/Release/lib/libeay32.lib merge=ours
+third_party/openssl-1.0.2p/build/Release/lib/ssleay32.lib merge=ours
+third_party/openssl-1.0.2p/build/Release/ssl/openssl.cnf merge=ours
+third_party/openssl-1.0.2p/out32.dbg/bad_dtls_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/bftest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/bntest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/casttest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/clienthellotest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/constant_time_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/destest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/dhtest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/dsatest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/dtlstest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/ecdhtest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/ecdsatest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/ectest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/enginetest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/evp_extra_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/evp_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/exptest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/fatalerrtest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/heartbeat_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/hmactest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/ideatest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/igetest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/libeay32.lib merge=ours
+third_party/openssl-1.0.2p/out32.dbg/md4test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/md5test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/mdc2test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/openssl.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/randtest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/rc2test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/rc4test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/rmdtest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/rsa_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/sha1test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/sha256t.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/sha512t.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/shatest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/srptest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/ssleay32.lib merge=ours
+third_party/openssl-1.0.2p/out32.dbg/ssltest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/sslv2conftest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/v3nametest.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/verify_extra_test.exe merge=ours
+third_party/openssl-1.0.2p/out32.dbg/wp_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/bad_dtls_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/bftest.exe merge=ours
+third_party/openssl-1.0.2p/out32/bntest.exe merge=ours
+third_party/openssl-1.0.2p/out32/casttest.exe merge=ours
+third_party/openssl-1.0.2p/out32/clienthellotest.exe merge=ours
+third_party/openssl-1.0.2p/out32/constant_time_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/destest.exe merge=ours
+third_party/openssl-1.0.2p/out32/dhtest.exe merge=ours
+third_party/openssl-1.0.2p/out32/dsatest.exe merge=ours
+third_party/openssl-1.0.2p/out32/dtlstest.exe merge=ours
+third_party/openssl-1.0.2p/out32/ecdhtest.exe merge=ours
+third_party/openssl-1.0.2p/out32/ecdsatest.exe merge=ours
+third_party/openssl-1.0.2p/out32/ectest.exe merge=ours
+third_party/openssl-1.0.2p/out32/enginetest.exe merge=ours
+third_party/openssl-1.0.2p/out32/evp_extra_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/evp_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/exptest.exe merge=ours
+third_party/openssl-1.0.2p/out32/fatalerrtest.exe merge=ours
+third_party/openssl-1.0.2p/out32/heartbeat_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/hmactest.exe merge=ours
+third_party/openssl-1.0.2p/out32/ideatest.exe merge=ours
+third_party/openssl-1.0.2p/out32/igetest.exe merge=ours
+third_party/openssl-1.0.2p/out32/libeay32.lib merge=ours
+third_party/openssl-1.0.2p/out32/md4test.exe merge=ours
+third_party/openssl-1.0.2p/out32/md5test.exe merge=ours
+third_party/openssl-1.0.2p/out32/mdc2test.exe merge=ours
+third_party/openssl-1.0.2p/out32/openssl.exe merge=ours
+third_party/openssl-1.0.2p/out32/randtest.exe merge=ours
+third_party/openssl-1.0.2p/out32/rc2test.exe merge=ours
+third_party/openssl-1.0.2p/out32/rc4test.exe merge=ours
+third_party/openssl-1.0.2p/out32/rmdtest.exe merge=ours
+third_party/openssl-1.0.2p/out32/rsa_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/sha1test.exe merge=ours
+third_party/openssl-1.0.2p/out32/sha256t.exe merge=ours
+third_party/openssl-1.0.2p/out32/sha512t.exe merge=ours
+third_party/openssl-1.0.2p/out32/shatest.exe merge=ours
+third_party/openssl-1.0.2p/out32/srptest.exe merge=ours
+third_party/openssl-1.0.2p/out32/ssleay32.lib merge=ours
+third_party/openssl-1.0.2p/out32/ssltest.exe merge=ours
+third_party/openssl-1.0.2p/out32/sslv2conftest.exe merge=ours
+third_party/openssl-1.0.2p/out32/v3nametest.exe merge=ours
+third_party/openssl-1.0.2p/out32/verify_extra_test.exe merge=ours
+third_party/openssl-1.0.2p/out32/wp_test.exe merge=ours
+third_party/zlib-1.2.11/build/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe merge=ours
+third_party/zlib-1.2.11/build/Debug/example.exe merge=ours
+third_party/zlib-1.2.11/build/Debug/minigzip.exe merge=ours
+third_party/zlib-1.2.11/build/Debug/zlibd.dll merge=ours
+third_party/zlib-1.2.11/build/Debug/zlibd.lib merge=ours
+third_party/zlib-1.2.11/build/Debug/zlibstaticd.lib merge=ours
+third_party/zlib-1.2.11/build/Release/example.exe merge=ours
+third_party/zlib-1.2.11/build/Release/minigzip.exe merge=ours
+third_party/zlib-1.2.11/build/Release/zlib.dll merge=ours
+third_party/zlib-1.2.11/build/Release/zlib.exp merge=ours
+third_party/zlib-1.2.11/build/Release/zlib.lib merge=ours
+third_party/zlib-1.2.11/build/Release/zlibstatic.lib merge=ours
+third_party/zlib-1.2.11/build/zlib.dir/Release/zlib1.res merge=ours
+
+
+
+

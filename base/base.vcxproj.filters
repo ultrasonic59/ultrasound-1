@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="strings">
+      <UniqueIdentifier>{512a212e-d322-4a25-a82e-c3e68dcb766f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{aa2a3714-267d-4631-ba9a-cb0d3712fdf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{0f570e24-220b-491d-9061-103e160bb373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="macros.h" />
+    <ClInclude Include="strings\string_util.h">
+      <Filter>strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\convert_utf\ConvertUTF.h">
+      <Filter>third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_util.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="strings\string_util.cpp">
+      <Filter>strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\convert_utf\ConvertUTF.c">
+      <Filter>third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="json\json_util.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp" />
+  </ItemGroup>
+</Project>

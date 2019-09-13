@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>208</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>多点远程超声 - 上级医生登录</string>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QLabel" name="userLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>用户名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="passLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>50</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="passLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>240</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="loginPushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>130</y>
+     <width>290</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登录</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="statusLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>290</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入登录信息</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="rememberCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>97</y>
+     <width>71</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>记住密码</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="idComboBox">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>20</y>
+     <width>240</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>idComboBox</tabstop>
+  <tabstop>passLineEdit</tabstop>
+  <tabstop>rememberCheckBox</tabstop>
+  <tabstop>loginPushButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

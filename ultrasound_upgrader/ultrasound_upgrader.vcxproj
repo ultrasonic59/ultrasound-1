@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49DF8CEB-D669-4255-B1EF-200B8CC73C05}</ProjectGuid>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_CORE_LIB;QT_NETWORK_LIB;QUAZIP_STATIC;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Optimization>Disabled</Optimization>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(QTDIR)\include\QtNetwork;$(SolutionDir)\third_party\quazip-0.7.6\quazip;$(SolutionDir)\third_party\zlib-1.2.11;$(SolutionDir)\third_party\zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\third_party\zlib-1.2.11\build\Debug;$(SolutionDir)third_party\quazip-0.7.6\build\Debug;$(SolutionDir)\third_party\curl-7.61.0\build\lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmaind.lib;Qt5Cored.lib;Qt5Networkd.lib;Qt5Guid.lib;Qt5Widgetsd.lib;quazip_staticd.lib;zlibstaticd.lib;libcurl-d.lib;Wldap32.lib;ws2_32.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+    </Link>
+    <QtMoc>
+      <Define>UNICODE;WIN32;WIN64;QT_CORE_LIB;QT_NETWORK_LIB;QUAZIP_STATIC;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(QTDIR)\include\QtNetwork;$(SolutionDir)\third_party\quazip-0.7.6\quazip;$(SolutionDir)\third_party\zlib-1.2.11;$(SolutionDir)\third_party\zlib-1.2.11\build</IncludePath>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+    </QtMoc>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_NETWORK_LIB;QUAZIP_STATIC;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(QTDIR)\include\QtNetwork;$(SolutionDir)\third_party\quazip-0.7.6\quazip;$(SolutionDir)\third_party\zlib-1.2.11;$(SolutionDir)\third_party\zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>$(OutDir)\$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>$(QTDIR)\lib;$(SolutionDir)\third_party\zlib-1.2.11\build\Release;$(SolutionDir)\third_party\quazip-0.7.6\build\Release;$(SolutionDir)\third_party\curl-7.61.0\build\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>qtmain.lib;Qt5Core.lib;Qt5Network.lib;Qt5Gui.lib;Qt5Widgets.lib;quazip_static.lib;zlibstatic.lib;libcurl.lib;Wldap32.lib;ws2_32.lib;crypt32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <QtMoc>
+      <Define>UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_NETWORK_LIB;QUAZIP_STATIC;QT_GUI_LIB;QT_WIDGETS_LIB;%(PreprocessorDefinitions)</Define>
+      <IncludePath>.\GeneratedFiles;.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName);$(QTDIR)\include\QtCore;$(QTDIR)\include\QtGui;$(QTDIR)\include\QtWidgets;$(SolutionDir);$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(QTDIR)\include\QtNetwork;$(SolutionDir)\third_party\quazip-0.7.6\quazip;$(SolutionDir)\third_party\zlib-1.2.11;$(SolutionDir)\third_party\zlib-1.2.11\build</IncludePath>
+      <OutputFile>.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</OutputFile>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+    </QtMoc>
+    <QtRcc>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\qrc_%(Filename).cpp</OutputFile>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <OutputFile>.\GeneratedFiles\ui_%(Filename).h</OutputFile>
+    </QtUic>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckVersionTask.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ProcessStartTask.cpp" />
+    <ClCompile Include="CopyFileTask.cpp" />
+    <ClCompile Include="KillProcessTask.cpp" />
+    <ClCompile Include="UpgradeMainWindow.cpp" />
+    <ClCompile Include="UpgradeTask.cpp" />
+    <ClCompile Include="UnzipTask.cpp" />
+    <ClCompile Include="PackageDownloadTask.cpp">
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">input</DynamicSource>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(SolutionDir)\.;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(QTDIR)\include\QtNetwork</IncludePath>
+      <Define Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UNICODE;WIN32;WIN64;QT_CORE_LIB;QT_NETWORK_LIB;_USING_V110_SDK71_</Define>
+      <OutputFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\GeneratedFiles\$(ConfigurationName)\%(Filename).moc</OutputFile>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">input</DynamicSource>
+      <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.;$(QTDIR)\include;.\GeneratedFiles\$(ConfigurationName)\.;$(QTDIR)\include\QtCore;$(SolutionDir)\.;$(SolutionDir)\third_party\jsoncpp-1.8.4\include\json;$(QTDIR)\include\QtNetwork</IncludePath>
+      <Define Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UNICODE;WIN32;WIN64;QT_NO_DEBUG;NDEBUG;QT_CORE_LIB;QT_NETWORK_LIB;_USING_V110_SDK71_</Define>
+    </ClCompile>
+    <ClCompile Include="WorkflowTask.cpp" />
+    <ClCompile Include="WorkThreadTask.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CheckVersionTask.h" />
+    <QtMoc Include="CopyFileTask.h" />
+    <QtMoc Include="KillProcessTask.h" />
+    <QtMoc Include="ProcessStartTask.h" />
+    <QtMoc Include="WorkflowTask.h" />
+    <QtMoc Include="UpgradeTask.h" />
+    <QtMoc Include="WorkThreadTask.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="UnzipTask.h" />
+    <QtMoc Include="PackageDownloadTask.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\base\base.vcxproj">
+      <Project>{83e3c936-52c9-468b-8c65-a2fb062e2dbd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\core_service\core_service.vcxproj">
+      <Project>{674efcdc-c1b7-45fd-b035-0b3afdbad155}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\net_service\net_service.vcxproj">
+      <Project>{6f215b48-e8e0-404e-83d1-db80b43c6c8b}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\oss_service\oss_service.vcxproj">
+      <Project>{5017de92-7196-494c-a29e-0cccbeb207ee}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <QtMoc Include="UpgradeMainWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ultrasound_upgrader.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ultrasound_upgrader.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ultralsound_upgrade.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="UpgradeMainWindow.ui" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="msvc2015" MocOptions="" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

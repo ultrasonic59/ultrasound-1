@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+sdk
+third_party

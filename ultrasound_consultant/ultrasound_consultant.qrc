@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/UltrasoundConsultant">
+        <file>Resources/phone_idle.png</file>
+        <file>Resources/clock.png</file>
+        <file>Resources/doctor.png</file>
+        <file>Resources/report.png</file>
+        <file>Resources/phone_busy.png</file>
+        <file>Resources/settings.png</file>
+        <file>Resources/user.png</file>
+        <file>Resources/microphone16x16.png</file>
+        <file>Resources/microphone24x24.png</file>
+        <file>Resources/speaker16x16.png</file>
+        <file>Resources/speaker24x24.png</file>
+        <file>Resources/hang_up.png</file>
+        <file>Resources/hand.png</file>
+        <file>Resources/ellipse.png</file>
+        <file>Resources/rectangle.png</file>
+        <file>Resources/calling.png</file>
+        <file>Resources/bin.png</file>
+        <file>Resources/cancel.png</file>
+        <file>Resources/search.png</file>
+        <file>Resources/qtbase_zh_CN.qm</file>
+        <file>Resources/loading.gif</file>
+        <file>Resources/waiting.png</file>
+        <file>Resources/disturb_disable.png</file>
+        <file>Resources/disturb_enable.png</file>
+        <file>Resources/user_disturb.png</file>
+        <file>Resources/save.png</file>
+        <file>Resources/ringing.gif</file>
+        <file>Resources/callee_ringing.wav</file>
+        <file>ultrasound_consultant.ico</file>
+        <file>Resources/caller_ringing.wav</file>
+        <file>Resources/remind.png</file>
+    </qresource>
+</RCC>

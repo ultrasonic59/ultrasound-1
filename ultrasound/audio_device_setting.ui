@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AudioDeviceSetting</class>
+ <widget class="QDialog" name="AudioDeviceSetting">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>219</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>多点远程超声 - 音频设备管理</string>
+  </property>
+  <widget class="QComboBox" name="output_combobox">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>21</y>
+     <width>291</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="input_label">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>96</y>
+     <width>61</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输入设备</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="input_combobox">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>96</y>
+     <width>291</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="output_label">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>21</y>
+     <width>61</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>输出设备</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok_button">
+   <property name="geometry">
+    <rect>
+     <x>183</x>
+     <y>180</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确认</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_button">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>180</y>
+     <width>75</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="output_icon_label">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>57</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ultrasound.qrc">:/ultrasound/res/speaker24x24.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QSlider" name="output_horizontal_slider">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>61</y>
+     <width>251</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+   <property name="value">
+    <number>255</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="input_horizontal_slider">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>137</y>
+     <width>251</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+   <property name="value">
+    <number>255</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="input_icon_label">
+   <property name="geometry">
+    <rect>
+     <x>93</x>
+     <y>133</y>
+     <width>24</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ultrasound.qrc">:/ultrasound/res/microphone24x24.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="mic_auto_checkbox">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>180</y>
+     <width>151</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>自动调节麦克风音量</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="ultrasound.qrc"/>
+ </resources>
+ <connections/>
+</ui>

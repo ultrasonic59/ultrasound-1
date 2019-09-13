@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="core_service.h" />
+    <ClInclude Include="core_service_delegate.h" />
+    <ClInclude Include="login_event_handler.h" />
+    <ClInclude Include="primary_user.h" />
+    <ClInclude Include="report.h" />
+    <ClInclude Include="superior_user.h" />
+    <ClInclude Include="user_event_handler.h" />
+    <ClInclude Include="report_event_handler.h" />
+    <ClInclude Include="superior_user_status.h" />
+    <ClInclude Include="app_upgrade_info.h" />
+    <ClInclude Include="upgrade_event_handler.h" />
+    <ClInclude Include="report_template.h" />
+    <ClInclude Include="template_event_handler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core_service.cpp" />
+    <ClCompile Include="core_service_delegate.cpp" />
+    <ClCompile Include="primary_user.cpp" />
+    <ClCompile Include="report.cpp" />
+    <ClCompile Include="superior_user.cpp" />
+    <ClCompile Include="superior_user_status.cpp" />
+    <ClCompile Include="app_upgrade_info.cpp" />
+    <ClCompile Include="report_template.cpp" />
+  </ItemGroup>
+</Project>
