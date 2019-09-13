@@ -1,0 +1,98 @@
+﻿Build started 2018-10-20 14:03:23.
+     1>Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tool_kits\base\base.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../ /I../third_party/ /I../third_party/openssl/include/ /I../third_party/libevent/ /I../third_party/curl/include /Zi /nologo /W4 /WX /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D NOMINMAX /D WITH_ENCRYPT /D CURL_STATICLIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\vc120.pdb" /Gd /TP /wd4100 /wd4127 /wd4189 /wd4244 /wd4245 /wd4310 /wd4355 /wd4505 /analyze- /errorReport:prompt encrypt\des.cpp file\file_util.cpp file\file_util_posix.cpp file\file_util_win.cpp framework\default_message_pump.cpp framework\message_loop.cpp framework\message_loop_proxy.cpp framework\message_pump.cpp framework\win_io_message_pump.cpp framework\win_message_pump.cpp framework\win_ui_message_pump.cpp hardware\cpu.cpp network\network_util.cpp synchronization\lock_posix.cpp synchronization\lock_win.cpp synchronization\semaphore_posix.cpp synchronization\semaphore_win.cpp synchronization\waitable_event_posix.cpp synchronization\waitable_event_win.cpp third_party\chrome\atomicops_internals_x86_gcc.cc third_party\modp_b64\modp_b64.cc thread\framework_thread.cpp thread\thread_local_posix.cpp thread\thread_local_win.cpp thread\thread_manager.cpp thread\thread_posix.cpp thread\thread_win.cpp time\time.cpp time\time_posix.cpp time\time_win.cpp util\at_exit.cpp util\base64.cpp util\cmd_line_args.cpp util\string_number_conversions.cpp util\string_util.cpp win32\object_watcher.cpp win32\path_util.cpp win32\platform_string_util.cpp win32\security_util.cpp win32\shared_memory.cpp win32\win_util.cpp
+         des.cpp
+         file_util.cpp
+         file_util_posix.cpp
+         file_util_win.cpp
+         default_message_pump.cpp
+         message_loop.cpp
+         message_loop_proxy.cpp
+         message_pump.cpp
+         win_io_message_pump.cpp
+         win_message_pump.cpp
+         win_ui_message_pump.cpp
+         cpu.cpp
+         network_util.cpp
+         lock_posix.cpp
+         lock_win.cpp
+         semaphore_posix.cpp
+         semaphore_win.cpp
+         waitable_event_posix.cpp
+         waitable_event_win.cpp
+         atomicops_internals_x86_gcc.cc
+         Compiling...
+         modp_b64.cc
+         framework_thread.cpp
+         thread_local_posix.cpp
+         thread_local_win.cpp
+         thread_manager.cpp
+         thread_posix.cpp
+         thread_win.cpp
+         time.cpp
+         time_posix.cpp
+         time_win.cpp
+         at_exit.cpp
+         base64.cpp
+         cmd_line_args.cpp
+         string_number_conversions.cpp
+         string_util.cpp
+         object_watcher.cpp
+         path_util.cpp
+         platform_string_util.cpp
+         security_util.cpp
+         shared_memory.cpp
+         Compiling...
+         win_util.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../ /I../third_party/ /I../third_party/openssl/include/ /I../third_party/libevent/ /I../third_party/curl/include /Zi /nologo /W4 /WX /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D NOMINMAX /D WITH_ENCRYPT /D CURL_STATICLIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\vc120.pdb" /Gd /TC /wd4100 /wd4127 /wd4189 /wd4244 /wd4245 /wd4310 /wd4355 /wd4505 /analyze- /errorReport:prompt third_party\convert_utf\ConvertUTF.c
+         ConvertUTF.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\base.lib" /LIBPATH:C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tool_kits\base\..\..\libs\ /NOLOGO /LTCG C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\des.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\file_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\file_util_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\file_util_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\default_message_pump.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\message_loop.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\message_loop_proxy.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\message_pump.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\win_io_message_pump.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\win_message_pump.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\win_ui_message_pump.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\cpu.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\network_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\lock_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\lock_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\semaphore_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\semaphore_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\waitable_event_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\waitable_event_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\atomicops_internals_x86_gcc.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\ConvertUTF.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\modp_b64.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\framework_thread.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\thread_local_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\thread_local_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\thread_manager.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\thread_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\thread_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\time.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\time_posix.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\time_win.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\at_exit.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\base64.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\cmd_line_args.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\string_number_conversions.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\string_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\object_watcher.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\path_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\platform_string_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\security_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\shared_memory.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\base\Release\win_util.obj
+         base.vcxproj -> C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\base.lib
+     1>Done Building Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tool_kits\base\base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.97

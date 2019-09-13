@@ -1,0 +1,48 @@
+﻿Build started 2018-10-20 11:04:09.
+     1>Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tool_kits\shared\shared.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /I..\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\jsoncpp\include\json\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\openssl\include /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\src\uikit\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\src\uikit\cef\cef_wrapper\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\shared_d.pch" /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /I..\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\jsoncpp\include\json\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\openssl\include /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\src\uikit\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\src\uikit\cef\cef_wrapper\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\shared_d.pch" /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt app_helper\file_helper.cpp closure.cpp cmd_line.cpp ipc_manager.cpp log\log.cpp log\log_helper.cpp modal_wnd\async_do_modal.cpp modal_wnd\async_modal_runner.cpp modal_wnd\file_dialog_ex.cpp register_tool.cpp system_performance.cpp tool.cpp utf8_file_util.cpp util.cpp zip\zip.cpp
+         zip.cpp
+         util.cpp
+         utf8_file_util.cpp
+         tool.cpp
+         system_performance.cpp
+         register_tool.cpp
+         file_dialog_ex.cpp
+         async_modal_runner.cpp
+         async_do_modal.cpp
+         log_helper.cpp
+         log.cpp
+         ipc_manager.cpp
+         cmd_line.cpp
+         closure.cpp
+         file_helper.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /I..\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\jsoncpp\include\json\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\third_party\openssl\include /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\src\uikit\ /IC:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\src\uikit\cef\cef_wrapper\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt image_ole_i.c
+         image_ole_i.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\shared_d.lib" /NOLOGO C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\file_helper.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\closure.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\cmd_line.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\ipc_manager.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\log.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\log_helper.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\async_do_modal.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\async_modal_runner.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\file_dialog_ex.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\register_tool.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\stdafx.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\system_performance.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\tool.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\utf8_file_util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\util.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\zip.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\shared\Debug\image_ole_i.obj
+         shared.vcxproj -> C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\shared_d.lib
+     1>Done Building Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tool_kits\shared\shared.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.31

@@ -1,0 +1,80 @@
+﻿Build started 2018-10-20 14:03:51.
+     1>Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\nls_play\nls_play.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /I..\include\ /I..\tool_kits\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\nls_play.pch" /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\vc120.pdb" /Gd /TP /FIstdafx.h /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /I..\include\ /I..\tool_kits\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\nls_play.pch" /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\vc120.pdb" /Gd /TP /FIstdafx.h /analyze- /errorReport:prompt gui\about_form\about_form.cpp gui\main_form\controls\ui_bitmap_control.cpp gui\main_form\main_form.cpp gui\main_form\main_form_ui.cpp gui\msgbox\msgbox.cpp gui\toast\toast.cpp gui\ui_menu\ui_menu.cpp main.cpp module\window\windows_manager.cpp module\window\window_ex.cpp
+         about_form.cpp
+         ui_bitmap_control.cpp
+         main_form.cpp
+         main_form_ui.cpp
+         msgbox.cpp
+         toast.cpp
+         ui_menu.cpp
+         main.cpp
+         windows_manager.cpp
+         window_ex.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\nls_play.res" nls_play.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\libs dbghelp.lib duilib.lib libyuv.lib NELivePlayer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:NELivePlayer.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play.lib" /MACHINE:X86 /SAFESEH C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\nls_play.res
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\about_form.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\ui_bitmap_control.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\main_form.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\main_form_ui.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\msgbox.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\toast.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\ui_menu.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\main.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\windows_manager.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\window_ex.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Release\stdafx.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\base.lib
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\shared.lib
+         Generating code
+         Finished generating code
+     1>duilib.lib(Window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Window.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Placeholder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Placeholder.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(WinImplBase.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(WinImplBase.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Box.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Box.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Control.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Control.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Combo.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Combo.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Progress.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Progress.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(TabBox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(TabBox.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(RichEdit.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(RichEdit.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(List.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(List.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(MultiLangSupport.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(MultiLangSupport.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Render.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Render.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(GlobalManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(GlobalManager.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(AnimationManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(AnimationManager.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Image.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Image.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(StdAfx.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(StdAfx.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(TimerManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(TimerManager.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(WindowBuilder.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(WindowBuilder.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Markup.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Markup.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(AnimationPlayer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(AnimationPlayer.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(ScrollBar.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(ScrollBar.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(StringUtil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(StringUtil.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(VBox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(VBox.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(HBox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(HBox.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Slider.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Slider.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(TileBox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(TileBox.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(TreeView.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(TreeView.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(ChildBox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(ChildBox.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>duilib.lib(Define.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'duilib.lib(Define.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(scale_argb.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(scale_argb.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(scale_common.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(scale_common.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(scale_win.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(scale_win.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(row_common.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(row_common.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(cpu_id.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(cpu_id.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(row_win.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(row_win.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(row_any.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(row_any.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(convert_argb.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(convert_argb.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(scale_any.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(scale_any.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+     1>libyuv.lib(planar_functions.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libyuv.lib(planar_functions.obj)' or at 'C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\vc120.pdb'; linking object as if no debug info
+         nls_play.vcxproj -> C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play.exe
+     1>Done Building Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\nls_play\nls_play.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.80

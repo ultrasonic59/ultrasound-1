@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{11179520-ddaf-47c8-bdf3-f79c9033ef9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module">
+      <UniqueIdentifier>{7fe4acfb-511f-483f-a043-638c084fe732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="module\window">
+      <UniqueIdentifier>{77be3b66-9ce4-4da0-aa70-d033129fbaf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\main_form">
+      <UniqueIdentifier>{45e907e9-a11b-4956-b9e2-5732c1a6970f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\about_form">
+      <UniqueIdentifier>{9f8907f6-85f5-492c-b88c-e0db450b82ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\toast">
+      <UniqueIdentifier>{b7feda28-2fd0-444d-8df1-27abb931828d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\main_form\controls">
+      <UniqueIdentifier>{6dfc01ee-60bd-43e0-abde-5929da9358c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\msgbox">
+      <UniqueIdentifier>{8bdae308-9ca9-4866-aed0-95578715740f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui\ui_menu">
+      <UniqueIdentifier>{40726930-141a-40ee-80ca-ea5881651821}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="app_dump.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="module\window\window_ex.h">
+      <Filter>module\window</Filter>
+    </ClInclude>
+    <ClInclude Include="module\window\windows_manager.h">
+      <Filter>module\window</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\main_form\main_form.h">
+      <Filter>gui\main_form</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\about_form\about_form.h">
+      <Filter>gui\about_form</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\toast\toast.h">
+      <Filter>gui\toast</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\main_form\controls\ui_bitmap_control.h">
+      <Filter>gui\main_form\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\msgbox\msgbox.h">
+      <Filter>gui\msgbox</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\ui_menu\ui_menu.h">
+      <Filter>gui\ui_menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nls_play.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="nls_play.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="module\window\window_ex.cpp">
+      <Filter>module\window</Filter>
+    </ClCompile>
+    <ClCompile Include="module\window\windows_manager.cpp">
+      <Filter>module\window</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\main_form\main_form.cpp">
+      <Filter>gui\main_form</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\main_form\main_form_ui.cpp">
+      <Filter>gui\main_form</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\about_form\about_form.cpp">
+      <Filter>gui\about_form</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\toast\toast.cpp">
+      <Filter>gui\toast</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\main_form\controls\ui_bitmap_control.cpp">
+      <Filter>gui\main_form\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\msgbox\msgbox.cpp">
+      <Filter>gui\msgbox</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\ui_menu\ui_menu.cpp">
+      <Filter>gui\ui_menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\bin\themes\default\main\main_form.xml">
+      <Filter>资源文件</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

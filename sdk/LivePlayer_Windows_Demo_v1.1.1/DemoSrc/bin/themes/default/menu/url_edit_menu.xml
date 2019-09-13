@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="92,32" shadowattached="fasle">
+	<VListBox class="menu">
+		<MenuElement class="MenuElement" name="cut" width="92" height="32">
+			<Button class="menu_text" text="剪切" width="92" halign="center" valign="center"/>
+		</MenuElement>
+		<MenuElement class="MenuElement" name="copy" width="92" height="32">
+			<Button class="menu_text" text="复制" width="92" halign="center" valign="center"/>
+		</MenuElement>
+		<MenuElement class="MenuElement" name="paste" width="92" height="32">
+			<Button class="menu_text" text="粘贴" width="92" halign="center" valign="center"/>
+		</MenuElement>
+	</VListBox>
+</Window>

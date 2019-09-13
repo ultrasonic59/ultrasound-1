@@ -1,0 +1,20 @@
+﻿  oss_xml.c
+  oss_util.c
+  oss_resumable.c
+  oss_object.c
+  oss_multipart.c
+  oss_live.c
+  oss_define.c
+  oss_bucket.c
+  oss_auth.c
+  aos_util.c
+  aos_transport.c
+  aos_string.c
+  aos_status.c
+  aos_log.c
+  aos_http_io.c
+  aos_fstack.c
+  aos_crc64.c
+  aos_buf.c
+  Generating Code...
+  oss_c_sdk.vcxproj -> C:\Git\ultrasound\sdk\aliyun-oss-c-sdk-3.5.0\oss_c_sdk\Debug\oss_c_sdk.lib

@@ -1,0 +1,26 @@
+﻿Build started 2018-10-20 11:34:27.
+     1>Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\nls_play\nls_play.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\ /I..\include\ /I..\tool_kits\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\nls_play_d.pch" /Fo"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\\" /Fd"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\vc120.pdb" /Gd /TP /FIstdafx.h /analyze- /errorReport:prompt gui\main_form\main_form_ui.cpp
+         main_form_ui.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs dbghelp.lib duilib_d.lib libyuv_d.lib NELivePlayer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Delayimp.lib /DELAYLOAD:NELivePlayer.dll /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play_d.lib" /MACHINE:X86 C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\nls_play.res
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\about_form.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\ui_bitmap_control.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\main_form.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\main_form_ui.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\msgbox.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\toast.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\ui_menu.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\main.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\windows_manager.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\window_ex.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\tmp\nls_play\Debug\stdafx.obj
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\base_d.lib
+         C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\libs\shared_d.lib
+         nls_play.vcxproj -> C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\bin\nls_play_d.exe
+     1>Done Building Project "C:\Git\ruds_app\sdk\LivePlayer_Windows_Demo_v1.1.1\DemoSrc\nls_play\nls_play.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.56
