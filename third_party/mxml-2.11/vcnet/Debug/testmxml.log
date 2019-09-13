@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (mxml1.vcxproj, mxmldoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  testmxml.c
+c:\git\ultrasound\third_party\mxml-2.11\testmxml.c : fatal error C1041: cannot open program database 'C:\Git\ultrasound\third_party\mxml-2.11\vcnet\Debug\vc140.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+cl : Command line warning D9028: minimal rebuild failure, reverting to normal build

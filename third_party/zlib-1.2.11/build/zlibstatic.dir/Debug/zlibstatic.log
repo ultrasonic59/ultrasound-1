@@ -1,0 +1,19 @@
+﻿  Building Custom Rule C:/Git/ultrasound/third_party/zlib-1.2.11/CMakeLists.txt
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/zlib-1.2.11/build/CMakeFiles/generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+  zlibstatic.vcxproj -> C:\Git\ultrasound\third_party\zlib-1.2.11\build\Debug\zlibstaticd.lib

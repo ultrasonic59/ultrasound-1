@@ -1,0 +1,4 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/curl-7.61.0/build/lib/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/curl-7.61.0/build/src/CMakeFiles/generate.stamp is up-to-date.

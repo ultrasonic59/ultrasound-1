@@ -1,0 +1,8 @@
+﻿  BitBuffer.cpp
+  QrCode.cpp
+  QrCodeGeneratorDemo.cpp
+  QrCodeGeneratorWorker.cpp
+..\..\QrCodeGeneratorWorker.cpp(94): warning C4101: 'ex': unreferenced local variable
+  QrSegment.cpp
+QrCodeGeneratorDemo.obj : warning LNK4006: _main already defined in QrCodeGeneratorWorker.obj; second definition ignored
+  QR-Code-generator-1.4.0.vcxproj -> C:\Git\ruds_app\third_party\QR-Code-generator-1.4.0\cpp\QR-Code-generator-1.4.0\Release\QR-Code-generator-1.4.0.lib

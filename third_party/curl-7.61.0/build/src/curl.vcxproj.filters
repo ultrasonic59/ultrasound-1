@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\slist_wc.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_binmode.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_bname.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cb_dbg.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cb_hdr.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cb_prg.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cb_rea.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cb_see.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cb_wrt.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_cfgable.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_convert.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_dirhie.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_doswin.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_easysrc.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_filetime.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_formparse.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_getparam.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_getpass.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_help.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_helpers.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_homedir.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\build\src\tool_hugehelp.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_libinfo.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_main.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_metalink.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_msgs.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_operate.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_operhlp.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_panykey.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_paramhlp.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_parsecfg.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_strdup.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_setopt.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_sleep.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_urlglob.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_util.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_vms.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_writeout.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\src\tool_xattr.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\lib\strtoofft.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\lib\nonblock.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\lib\warnless.c" />
+    <ClCompile Include="$(SolutionDir)curl-7.61.0\lib\curl_ctype.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\slist_wc.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_binmode.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_bname.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cb_dbg.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cb_hdr.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cb_prg.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cb_rea.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cb_see.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cb_wrt.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_cfgable.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_convert.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_dirhie.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_doswin.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_easysrc.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_filetime.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_formparse.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_getparam.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_getpass.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_help.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_helpers.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_homedir.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_hugehelp.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_libinfo.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_main.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_metalink.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_msgs.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_operate.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_operhlp.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_panykey.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_paramhlp.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_parsecfg.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_sdecls.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_setopt.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_setup.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_sleep.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_strdup.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_urlglob.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_util.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_version.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_vms.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_writeout.h" />
+    <ClInclude Include="$(SolutionDir)curl-7.61.0\src\tool_xattr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)curl-7.61.0\build\CMakeFiles\df5703b5a9c53a3ba94104aa9f400806\tool_hugehelp.c.rule" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="$(SolutionDir)curl-7.61.0\src\curl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0F2EABC3-B6AF-3E64-BAE7-C7265247BCDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{13702676-B4F7-3B9E-97ED-F216F339C02F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curlX source files">
+      <UniqueIdentifier>{DE5F5EBE-0D77-3494-AAC6-E6F6D2A89C81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl source files">
+      <UniqueIdentifier>{D793DA5A-9897-30B2-B18B-C7C43A475118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="curl header files">
+      <UniqueIdentifier>{03987D94-56D1-333D-B32D-B2AC02BB46D4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

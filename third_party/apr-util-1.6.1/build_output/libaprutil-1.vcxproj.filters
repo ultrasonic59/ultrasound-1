@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_brigade.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_alloc.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_eos.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_file.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_flush.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_heap.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_mmap.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_pipe.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_pool.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_refcount.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_simple.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_socket.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_crypto.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_md4.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_md5.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_passwd.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_sha1.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_siphash.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\crypt_blowfish.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\getuuid.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\uuid.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbd\apr_dbd.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\apr_dbm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\apr_dbm_sdbm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm_hash.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm_lock.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm_pair.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\encoding\apr_base64.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\hooks\apr_hooks.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\memcache\apr_memcache.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_date.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_queue.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_reslist.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_rmm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_thread_pool.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apu_dso.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apu_version.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\redis\apr_redis.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\strmatch\apr_strmatch.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\uri\apr_uri.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\xlate\xlate.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\xml\apr_xml.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_stub.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_url.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)apr-util-1.6.1\build_output\apu.h" />
+    <ClInclude Include="$(SolutionDir)apr-util-1.6.1\build_output\apr_ldap.h" />
+    <ClInclude Include="$(SolutionDir)apr-util-1.6.1\build_output\apu_want.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{213B7346-6C78-394A-A14C-09C633290A06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1F653CB4-7A6D-3EFC-B988-6C5A0ED5E0D6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

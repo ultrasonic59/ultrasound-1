@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F68F0214-F93D-34A0-8466-99FF2CAF5082}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>aprutil-1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">aprutil-1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">aprutil-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">aprutil-1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">aprutil-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">aprutil-1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">aprutil-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">aprutil-1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">aprutil-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APU_DECLARE_STATIC;APR_DECLARE_STATIC;APU_DSO_MODULE_BUILD;XML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_brigade.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_alloc.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_eos.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_file.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_flush.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_heap.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_mmap.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_pipe.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_pool.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_refcount.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_simple.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\buckets\apr_buckets_socket.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_crypto.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_md4.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_md5.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_passwd.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_sha1.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\apr_siphash.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\crypt_blowfish.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\getuuid.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\crypto\uuid.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbd\apr_dbd.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\apr_dbm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\apr_dbm_sdbm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm_hash.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm_lock.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\dbm\sdbm\sdbm_pair.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\encoding\apr_base64.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\hooks\apr_hooks.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\memcache\apr_memcache.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_date.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_queue.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_reslist.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_rmm.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apr_thread_pool.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apu_dso.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\misc\apu_version.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\redis\apr_redis.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\strmatch\apr_strmatch.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\uri\apr_uri.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\xlate\xlate.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\xml\apr_xml.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_stub.c" />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_url.c" />
+    <ClInclude Include="$(SolutionDir)apr-util-1.6.1\build_output\apu.h" />
+    <ClInclude Include="$(SolutionDir)apr-util-1.6.1\build_output\apr_ldap.h" />
+    <ClInclude Include="$(SolutionDir)apr-util-1.6.1\build_output\apu_want.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

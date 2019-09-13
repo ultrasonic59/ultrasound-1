@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Git/ultrasound/third_party/apr-1.6.3/CMakeLists.txt
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/apr-1.6.3/build_output/CMakeFiles/generate.stamp is up-to-date.
+  gen_test_char.c
+  gen_test_char.vcxproj -> C:\Git\ultrasound\third_party\apr-1.6.3\build_output\Debug\gen_test_char.exe
+  gen_test_char.vcxproj -> C:/Git/ultrasound/third_party/apr-1.6.3/build_output/Debug/gen_test_char.pdb (Full PDB)

@@ -1,0 +1,5 @@
+﻿libexpatMT.lib(xmlparse.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library C:/Git/ultrasound/third_party/apr-util-1.6.1/build_output/Debug/libaprutil-1.lib and object C:/Git/ultrasound/third_party/apr-util-1.6.1/build_output/Debug/libaprutil-1.exp
+LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+  libaprutil-1.vcxproj -> C:\Git\ultrasound\third_party\apr-util-1.6.1\build_output\Debug\libaprutil-1.dll
+  libaprutil-1.vcxproj -> C:/Git/ultrasound/third_party/apr-util-1.6.1/build_output/Debug/libaprutil-1.pdb (Full PDB)

@@ -1,0 +1,55 @@
+﻿  Building Custom Rule C:/Git/ultrasound/third_party/apr-util-1.6.1/CMakeLists.txt
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/apr-util-1.6.1/build_output/CMakeFiles/generate.stamp is up-to-date.
+  apr_brigade.c
+  apr_buckets.c
+  apr_buckets_alloc.c
+  apr_buckets_eos.c
+  apr_buckets_file.c
+  apr_buckets_flush.c
+  apr_buckets_heap.c
+  apr_buckets_mmap.c
+  apr_buckets_pipe.c
+  apr_buckets_pool.c
+  apr_buckets_refcount.c
+  apr_buckets_simple.c
+  apr_buckets_socket.c
+  apr_crypto.c
+  apr_md4.c
+  apr_md5.c
+  apr_passwd.c
+  apr_sha1.c
+  apr_siphash.c
+  crypt_blowfish.c
+C:\Git\ultrasound\third_party\apr-util-1.6.1\crypto\crypt_blowfish.c(894): warning C4244: '=': conversion from 'unsigned long' to 'char', possible loss of data
+  Generating Code...
+  Compiling...
+  getuuid.c
+  uuid.c
+  apr_dbd.c
+  apr_dbm.c
+  apr_dbm_sdbm.c
+  sdbm.c
+  sdbm_hash.c
+  sdbm_lock.c
+  sdbm_pair.c
+  apr_base64.c
+  apr_hooks.c
+  apr_memcache.c
+  apr_date.c
+  apr_queue.c
+  apr_reslist.c
+  apr_rmm.c
+  apr_thread_pool.c
+  apu_dso.c
+  apu_version.c
+  apr_redis.c
+  Generating Code...
+  Compiling...
+  apr_strmatch.c
+  apr_uri.c
+  xlate.c
+  apr_xml.c
+  apr_ldap_stub.c
+  apr_ldap_url.c
+  Generating Code...
+  aprutil-1.vcxproj -> C:\Git\ultrasound\third_party\apr-util-1.6.1\build_output\Release\aprutil-1.lib

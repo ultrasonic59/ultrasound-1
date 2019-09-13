@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\atomic\win32\apr_atomic.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\dso\win32\dso.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\encoding\apr_escape.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\unix\copy.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\unix\fileacc.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\unix\filepath_util.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\unix\fullrw.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\unix\mktemp.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\unix\tempdir.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\buffer.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\dir.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\filedup.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\filepath.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\filestat.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\filesys.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\flock.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\open.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\pipe.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\readwrite.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\file_io\win32\seek.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\locks\win32\proc_mutex.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\locks\win32\thread_cond.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\locks\win32\thread_mutex.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\locks\win32\thread_rwlock.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\memory\unix\apr_pools.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\unix\errorcodes.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\unix\getopt.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\unix\otherchild.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\unix\version.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\charset.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\env.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\internal.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\misc.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\rand.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\start.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\misc\win32\utf8.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\mmap\unix\common.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\mmap\win32\mmap.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\unix\inet_ntop.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\unix\inet_pton.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\unix\multicast.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\unix\sockaddr.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\unix\socket_util.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\win32\sendrecv.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\win32\sockets.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\network_io\win32\sockopt.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\passwd\apr_getpass.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\poll\unix\poll.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\poll\unix\pollcb.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\poll\unix\pollset.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\poll\unix\select.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\poll\unix\wakeup.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\random\unix\apr_random.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\random\unix\sha2.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\random\unix\sha2_glue.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\shmem\win32\shm.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_cpystrn.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_cstr.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_fnmatch.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_snprintf.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_strings.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_strnatcmp.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\strings\apr_strtok.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\tables\apr_hash.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\tables\apr_skiplist.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\tables\apr_tables.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\threadproc\win32\proc.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\threadproc\win32\signals.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\threadproc\win32\thread.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\threadproc\win32\threadpriv.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\time\win32\time.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\time\win32\timestr.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\user\win32\groupinfo.c" />
+    <ClCompile Include="$(SolutionDir)apr-1.6.3\user\win32\userinfo.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(SolutionDir)apr-1.6.3\build_output\apr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2D46D916-8BF8-31DC-BBD6-A281EEEBEED6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7A3F0A61-84AC-38C4-87D4-FB89E5093210}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

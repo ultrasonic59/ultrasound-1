@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\source\ruds_app\third_party\apr-1.6.3\build_output\CMakeFiles\dc17cd20bddf6adb949fb73025570f7a\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE947295-C648-3AD5-BDAF-820517CE546F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

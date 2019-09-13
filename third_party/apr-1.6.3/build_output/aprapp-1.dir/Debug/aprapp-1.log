@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Git/ultrasound/third_party/apr-1.6.3/CMakeLists.txt
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/apr-1.6.3/build_output/CMakeFiles/generate.stamp is up-to-date.
+  apr_app.c
+  internal.c
+  Generating Code...
+  aprapp-1.vcxproj -> C:\Git\ultrasound\third_party\apr-1.6.3\build_output\Debug\aprapp-1.lib

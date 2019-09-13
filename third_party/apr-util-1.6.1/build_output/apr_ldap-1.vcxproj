@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4F9042B6-4457-3D5B-8280-86A98CC788F0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>apr_ldap-1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">apr_ldap-1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">apr_ldap-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">apr_ldap-1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">apr_ldap-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">apr_ldap-1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">apr_ldap-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">apr_ldap-1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">apr_ldap-1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR="Debug";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR=\"Debug\";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\libaprutil-1.lib;$(SolutionDir)apr-1.6.3\build_output\Release\libapr-1.lib;wldap32.lib;$(SolutionDir)libexpat-R_2_2_6\expat\build\Release\expat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/apr-util-1.6.1/build_output/Debug/apr_ldap-1.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/apr-util-1.6.1/build_output/Debug/apr_ldap-1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR="Release";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR=\"Release\";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\libaprutil-1.lib;$(SolutionDir)apr-1.6.3\build_output\Release\libapr-1.lib;wldap32.lib;$(SolutionDir)libexpat-R_2_2_6\expat\build\Release\expat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/apr-util-1.6.1/build_output/Release/apr_ldap-1.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/apr-util-1.6.1/build_output/Release/apr_ldap-1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR="MinSizeRel";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR=\"MinSizeRel\";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\libaprutil-1.lib;$(SolutionDir)apr-1.6.3\build_output\Release\libapr-1.lib;wldap32.lib;$(SolutionDir)libexpat-R_2_2_6\expat\build\Release\expat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/apr-util-1.6.1/build_output/MinSizeRel/apr_ldap-1.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/apr-util-1.6.1/build_output/MinSizeRel/apr_ldap-1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR="RelWithDebInfo";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;APR_DECLARE_EXPORT=1;APU_DECLARE_EXPORT=1;DLL_NAME=apr_ldap;WINNT;CMAKE_INTDIR=\"RelWithDebInfo\";apr_ldap_1_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-util-1.6.1\build_output;$(SolutionDir)apr-util-1.6.1\include;$(SolutionDir)apr-util-1.6.1\include\private;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)libexpat-R_2_2_6\expat\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\libaprutil-1.lib;$(SolutionDir)apr-1.6.3\build_output\Release\libapr-1.lib;wldap32.lib;$(SolutionDir)libexpat-R_2_2_6\expat\build\Release\expat.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/apr-util-1.6.1/build_output/RelWithDebInfo/apr_ldap-1.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/apr-util-1.6.1/build_output/RelWithDebInfo/apr_ldap-1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)apr-util-1.6.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule $(SolutionDir)/apr-util-1.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-util-1.6.1 -B$(SolutionDir)/apr-util-1.6.1/build_output --check-stamp-file $(SolutionDir)/apr-util-1.6.1/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/apr-util-1.6.1/CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindEXPAT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)apr-util-1.6.1\include\apu.hwc;$(SolutionDir)apr-util-1.6.1\include\apr_ldap.hwc;$(SolutionDir)apr-util-1.6.1\include\private\apu_config.hw;$(SolutionDir)apr-util-1.6.1\include\private\apu_select_dbm.hw;$(SolutionDir)apr-util-1.6.1\include\apu_want.hw;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule $(SolutionDir)/apr-util-1.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-util-1.6.1 -B$(SolutionDir)/apr-util-1.6.1/build_output --check-stamp-file $(SolutionDir)/apr-util-1.6.1/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)/apr-util-1.6.1/CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindEXPAT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)apr-util-1.6.1\include\apu.hwc;$(SolutionDir)apr-util-1.6.1\include\apr_ldap.hwc;$(SolutionDir)apr-util-1.6.1\include\private\apu_config.hw;$(SolutionDir)apr-util-1.6.1\include\private\apu_select_dbm.hw;$(SolutionDir)apr-util-1.6.1\include\apu_want.hw;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule $(SolutionDir)/apr-util-1.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-util-1.6.1 -B$(SolutionDir)/apr-util-1.6.1/build_output --check-stamp-file $(SolutionDir)/apr-util-1.6.1/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)/apr-util-1.6.1/CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindEXPAT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)apr-util-1.6.1\include\apu.hwc;$(SolutionDir)apr-util-1.6.1\include\apr_ldap.hwc;$(SolutionDir)apr-util-1.6.1\include\private\apu_config.hw;$(SolutionDir)apr-util-1.6.1\include\private\apu_select_dbm.hw;$(SolutionDir)apr-util-1.6.1\include\apu_want.hw;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule $(SolutionDir)/apr-util-1.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-util-1.6.1 -B$(SolutionDir)/apr-util-1.6.1/build_output --check-stamp-file $(SolutionDir)/apr-util-1.6.1/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)/apr-util-1.6.1/CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindEXPAT.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)apr-util-1.6.1\include\apu.hwc;$(SolutionDir)apr-util-1.6.1\include\apr_ldap.hwc;$(SolutionDir)apr-util-1.6.1\include\private\apu_config.hw;$(SolutionDir)apr-util-1.6.1\include\private\apu_select_dbm.hw;$(SolutionDir)apr-util-1.6.1\include\apu_want.hw;$(SolutionDir)apr-util-1.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)apr-util-1.6.1\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_init.c"  />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_option.c"  />
+    <ClCompile Include="$(SolutionDir)apr-util-1.6.1\ldap\apr_ldap_rebind.c"  />
+    <ResourceCompile Include="$(SolutionDir)apr-util-1.6.1\libaprutil.rc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)apr-util-1.6.1\build_output\ZERO_CHECK.vcxproj">
+      <Project>{D4AA6DA4-2995-3869-BB84-7A62A8A0E2AB}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)apr-util-1.6.1\build_output\libaprutil-1.vcxproj">
+      <Project>{3656AFB9-1619-3694-8B2B-7B7AE0F56FAF}</Project>
+      <Name>libaprutil-1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38714174-2149-3C26-98D8-BA951A168041}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)curl-7.61.0\build\include\curl;$(SolutionDir)curl-7.61.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)curl-7.61.0\build\include\curl;$(SolutionDir)curl-7.61.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)curl-7.61.0\build\include\curl;$(SolutionDir)curl-7.61.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)curl-7.61.0\build\include\curl;$(SolutionDir)curl-7.61.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)curl-7.61.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule $(SolutionDir)/curl-7.61.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/curl-7.61.0 -B$(SolutionDir)/curl-7.61.0/build --check-stamp-file $(SolutionDir)/curl-7.61.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/curl-7.61.0/CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMake\Utilities.cmake;$(SolutionDir)curl-7.61.0\CMake\Macros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)curl-7.61.0\CMake\CurlSymbolHiding.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;$(SolutionDir)curl-7.61.0\CMake\Platforms\WindowsCache.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)curl-7.61.0\CMake\FindLibSSH2.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;$(SolutionDir)curl-7.61.0\CMake\OtherTests.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;$(SolutionDir)curl-7.61.0\curl-config.in;$(SolutionDir)curl-7.61.0\libcurl.pc.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;$(SolutionDir)curl-7.61.0\CMake\curl-config.cmake;$(SolutionDir)curl-7.61.0\CMake\cmake_uninstall.cmake.in;$(SolutionDir)curl-7.61.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)curl-7.61.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule $(SolutionDir)/curl-7.61.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/curl-7.61.0 -B$(SolutionDir)/curl-7.61.0/build --check-stamp-file $(SolutionDir)/curl-7.61.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)/curl-7.61.0/CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMake\Utilities.cmake;$(SolutionDir)curl-7.61.0\CMake\Macros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)curl-7.61.0\CMake\CurlSymbolHiding.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;$(SolutionDir)curl-7.61.0\CMake\Platforms\WindowsCache.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)curl-7.61.0\CMake\FindLibSSH2.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;$(SolutionDir)curl-7.61.0\CMake\OtherTests.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;$(SolutionDir)curl-7.61.0\curl-config.in;$(SolutionDir)curl-7.61.0\libcurl.pc.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;$(SolutionDir)curl-7.61.0\CMake\curl-config.cmake;$(SolutionDir)curl-7.61.0\CMake\cmake_uninstall.cmake.in;$(SolutionDir)curl-7.61.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)curl-7.61.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule $(SolutionDir)/curl-7.61.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/curl-7.61.0 -B$(SolutionDir)/curl-7.61.0/build --check-stamp-file $(SolutionDir)/curl-7.61.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)/curl-7.61.0/CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMake\Utilities.cmake;$(SolutionDir)curl-7.61.0\CMake\Macros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)curl-7.61.0\CMake\CurlSymbolHiding.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;$(SolutionDir)curl-7.61.0\CMake\Platforms\WindowsCache.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)curl-7.61.0\CMake\FindLibSSH2.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;$(SolutionDir)curl-7.61.0\CMake\OtherTests.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;$(SolutionDir)curl-7.61.0\curl-config.in;$(SolutionDir)curl-7.61.0\libcurl.pc.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;$(SolutionDir)curl-7.61.0\CMake\curl-config.cmake;$(SolutionDir)curl-7.61.0\CMake\cmake_uninstall.cmake.in;$(SolutionDir)curl-7.61.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)curl-7.61.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule $(SolutionDir)/curl-7.61.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/curl-7.61.0 -B$(SolutionDir)/curl-7.61.0/build --check-stamp-file $(SolutionDir)/curl-7.61.0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)/curl-7.61.0/CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMakeLists.txt;$(SolutionDir)curl-7.61.0\CMake\Utilities.cmake;$(SolutionDir)curl-7.61.0\CMake\Macros.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)curl-7.61.0\CMake\CurlSymbolHiding.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPerl.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindCygwin.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDependentOption.cmake;$(SolutionDir)curl-7.61.0\CMake\Platforms\WindowsCache.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;$(SolutionDir)curl-7.61.0\CMake\FindLibSSH2.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;$(SolutionDir)curl-7.61.0\CMake\CurlTests.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c;$(SolutionDir)curl-7.61.0\CMake\OtherTests.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceRuns.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckTypeSize.c.in;$(SolutionDir)curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\DartConfiguration.tcl.in;$(SolutionDir)curl-7.61.0\curl-config.in;$(SolutionDir)curl-7.61.0\libcurl.pc.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\WriteBasicConfigVersionFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;$(SolutionDir)curl-7.61.0\CMake\curl-config.cmake;$(SolutionDir)curl-7.61.0\CMake\cmake_uninstall.cmake.in;$(SolutionDir)curl-7.61.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)curl-7.61.0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\ZERO_CHECK.vcxproj">
+      <Project>{F1634A19-4F51-37BD-89F2-8B502E9E1357}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\chkhostname.vcxproj">
+      <Project>{20DF1411-9D11-3DAC-B345-8FE62A73A859}</Project>
+      <Name>chkhostname</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\src\curl.vcxproj">
+      <Project>{E9068246-7813-36DE-9533-CD612728BD4A}</Project>
+      <Name>curl</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\fake_ntlm.vcxproj">
+      <Project>{3A6A4F09-81C3-3DF1-A422-B92478DF77D1}</Project>
+      <Name>fake_ntlm</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\getpart.vcxproj">
+      <Project>{E8E90570-C34B-38E2-B972-37EE8210B077}</Project>
+      <Name>getpart</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1156.vcxproj">
+      <Project>{625F56F4-7F03-32F2-A374-F973B5D0F060}</Project>
+      <Name>lib1156</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1500.vcxproj">
+      <Project>{00EA9E05-A6B5-3A76-99F1-A3237F8CB258}</Project>
+      <Name>lib1500</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1501.vcxproj">
+      <Project>{C186FE4D-531E-302A-91F2-3019518271AA}</Project>
+      <Name>lib1501</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1502.vcxproj">
+      <Project>{88AE1673-E63F-3C19-942E-06A2E06BBA16}</Project>
+      <Name>lib1502</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1503.vcxproj">
+      <Project>{E08FF95E-C479-3EC9-BF3A-7AEF51C9DA54}</Project>
+      <Name>lib1503</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1504.vcxproj">
+      <Project>{B3AE4E7C-F4AA-3E36-8856-5DB06FD75536}</Project>
+      <Name>lib1504</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1505.vcxproj">
+      <Project>{03EA4C97-A7F0-3C35-B5AD-44F48DE96B8D}</Project>
+      <Name>lib1505</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1506.vcxproj">
+      <Project>{A0EED550-2EFA-3794-B967-873B0FC6ED3B}</Project>
+      <Name>lib1506</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1507.vcxproj">
+      <Project>{4CBEFD1D-08F8-39B9-9118-A383D8CC4023}</Project>
+      <Name>lib1507</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1508.vcxproj">
+      <Project>{FF8FCB53-AE7D-3D25-AB6C-D2B486155036}</Project>
+      <Name>lib1508</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1509.vcxproj">
+      <Project>{176801E0-AF6F-3F52-AC0A-8A7762C7F141}</Project>
+      <Name>lib1509</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1510.vcxproj">
+      <Project>{CFCA91AA-0C82-3FE7-B8FA-5DFCDB766742}</Project>
+      <Name>lib1510</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1511.vcxproj">
+      <Project>{D18DB148-199E-365E-86CE-1DD454B2FC48}</Project>
+      <Name>lib1511</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1512.vcxproj">
+      <Project>{CAFE0ADE-8ED3-3B42-9903-196E63EAA6EF}</Project>
+      <Name>lib1512</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1513.vcxproj">
+      <Project>{4EB58864-044D-34CD-B374-A1B64AF10F01}</Project>
+      <Name>lib1513</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1514.vcxproj">
+      <Project>{2B425027-6E90-342D-B568-768794697F88}</Project>
+      <Name>lib1514</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1515.vcxproj">
+      <Project>{C7262246-064A-3367-BF97-090CF293D575}</Project>
+      <Name>lib1515</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1517.vcxproj">
+      <Project>{B528019E-CB33-37CF-A5E3-76E996BEB6BB}</Project>
+      <Name>lib1517</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1520.vcxproj">
+      <Project>{5C83C79F-D765-3AFC-8D20-4DB6D8881093}</Project>
+      <Name>lib1520</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1521.vcxproj">
+      <Project>{D24CECBC-3173-3D46-8899-597B109606D5}</Project>
+      <Name>lib1521</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1525.vcxproj">
+      <Project>{9A0994BD-0B24-37A2-918E-19973BA1C363}</Project>
+      <Name>lib1525</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1526.vcxproj">
+      <Project>{46C7C697-506F-3216-8896-E8FCAA197BDC}</Project>
+      <Name>lib1526</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1527.vcxproj">
+      <Project>{F1899B14-6102-3C05-A18A-041A5836110A}</Project>
+      <Name>lib1527</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1528.vcxproj">
+      <Project>{5F246822-CCB8-3C0F-AD66-2B9F64F14045}</Project>
+      <Name>lib1528</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1529.vcxproj">
+      <Project>{B5702CFB-7B03-312C-9510-B0FD84AD344F}</Project>
+      <Name>lib1529</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1530.vcxproj">
+      <Project>{C7ED0EAC-44AC-3F86-BCD1-03879C6B8C94}</Project>
+      <Name>lib1530</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1531.vcxproj">
+      <Project>{2D6E908C-B1E7-35C1-B3DC-E62A4C42DC0B}</Project>
+      <Name>lib1531</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1532.vcxproj">
+      <Project>{C5560415-B89A-3682-92E3-7E583EBCE38E}</Project>
+      <Name>lib1532</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1533.vcxproj">
+      <Project>{AC0B1E40-5A30-3059-A25F-962C2B0C8209}</Project>
+      <Name>lib1533</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1534.vcxproj">
+      <Project>{6ED3428C-4BB0-35E8-84C4-D8554DD02C6F}</Project>
+      <Name>lib1534</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1535.vcxproj">
+      <Project>{A15B9A9B-63CC-3F5B-A75E-DA157246CDEA}</Project>
+      <Name>lib1535</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1536.vcxproj">
+      <Project>{0ECEB0F1-56D2-39EB-9F71-80726B57C28B}</Project>
+      <Name>lib1536</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1537.vcxproj">
+      <Project>{6C1038EE-622A-3B1F-983D-669F3D93B52B}</Project>
+      <Name>lib1537</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1538.vcxproj">
+      <Project>{DFD26C8A-7F51-34E9-935E-39AFE4317252}</Project>
+      <Name>lib1538</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1540.vcxproj">
+      <Project>{23BE2FC4-592A-3630-BC0E-D2F9DE9EB2BA}</Project>
+      <Name>lib1540</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1550.vcxproj">
+      <Project>{2031A5FF-EA43-36CA-A101-BB4CC8A6BB2A}</Project>
+      <Name>lib1550</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1551.vcxproj">
+      <Project>{E445F027-B1AE-3B0A-9766-72C5F363E857}</Project>
+      <Name>lib1551</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1552.vcxproj">
+      <Project>{22F23DC7-1DA4-3C98-B5A7-EFD06A24892F}</Project>
+      <Name>lib1552</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1553.vcxproj">
+      <Project>{8908BD8E-D747-375D-805C-36C07137DFB6}</Project>
+      <Name>lib1553</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1554.vcxproj">
+      <Project>{F479AB06-1EA7-30CE-BAE6-881B3C9B025A}</Project>
+      <Name>lib1554</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1555.vcxproj">
+      <Project>{73DDBA8E-3406-37AF-B755-AA45CEDABC9F}</Project>
+      <Name>lib1555</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1556.vcxproj">
+      <Project>{566F57C3-D425-3B0D-801C-DEB1E6C48EA7}</Project>
+      <Name>lib1556</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1557.vcxproj">
+      <Project>{B84A7855-DD6D-3D12-8089-4069596083C4}</Project>
+      <Name>lib1557</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib1900.vcxproj">
+      <Project>{9846496A-55E6-303B-AB12-8EDC7E86CBBD}</Project>
+      <Name>lib1900</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib2033.vcxproj">
+      <Project>{149473FD-99E2-313C-93AC-7F26108E6275}</Project>
+      <Name>lib2033</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib500.vcxproj">
+      <Project>{68192ED9-8481-3F2F-B67B-51B55D8ECEA0}</Project>
+      <Name>lib500</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib501.vcxproj">
+      <Project>{1835992D-3755-34E1-BEE9-7FE60EB52899}</Project>
+      <Name>lib501</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib502.vcxproj">
+      <Project>{37D45DC9-7EB9-3189-B28F-E1E7E14E0B43}</Project>
+      <Name>lib502</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib503.vcxproj">
+      <Project>{371BA7A7-B1FA-3005-858D-6AF4E5B23770}</Project>
+      <Name>lib503</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib504.vcxproj">
+      <Project>{221CDB32-3E10-3578-9E6C-6C227EA4D875}</Project>
+      <Name>lib504</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib505.vcxproj">
+      <Project>{1AF60B4B-F74B-3C7B-8A9A-B269347EA8A2}</Project>
+      <Name>lib505</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib506.vcxproj">
+      <Project>{92368FA7-93E9-3ABD-9080-6209B2663C48}</Project>
+      <Name>lib506</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib507.vcxproj">
+      <Project>{30856FCF-BFE0-37D7-A023-615EABC0A863}</Project>
+      <Name>lib507</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib508.vcxproj">
+      <Project>{8E63070B-8B63-3185-B362-F417F8795EEC}</Project>
+      <Name>lib508</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib509.vcxproj">
+      <Project>{AED5FAAF-F58A-3233-A801-4397C689F7CB}</Project>
+      <Name>lib509</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib510.vcxproj">
+      <Project>{12E835B8-6824-3996-AD4E-14C5788B49BC}</Project>
+      <Name>lib510</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib511.vcxproj">
+      <Project>{27DED0B9-587F-3F97-877C-F715ABB03631}</Project>
+      <Name>lib511</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib512.vcxproj">
+      <Project>{E403546E-DA6E-359C-A8F7-AD8A65C8599B}</Project>
+      <Name>lib512</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib513.vcxproj">
+      <Project>{DC3F58FD-FCEF-3A1C-98C4-1CF256C1082B}</Project>
+      <Name>lib513</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib514.vcxproj">
+      <Project>{EAE39E6A-F7F5-3FCD-89A5-0327A1B3970B}</Project>
+      <Name>lib514</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib515.vcxproj">
+      <Project>{B60BB5EE-6F54-35E0-8DD6-5F41940CAC51}</Project>
+      <Name>lib515</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib516.vcxproj">
+      <Project>{C3541976-B105-39E2-96AB-26A686A542EE}</Project>
+      <Name>lib516</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib517.vcxproj">
+      <Project>{73F0710F-1716-338F-8AA9-CD451441B5F3}</Project>
+      <Name>lib517</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib518.vcxproj">
+      <Project>{B5A49C36-D0F8-3C58-918D-681A5B305A7E}</Project>
+      <Name>lib518</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib519.vcxproj">
+      <Project>{63BA3FBB-79A5-3FC0-8FC4-C10406A869A2}</Project>
+      <Name>lib519</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib520.vcxproj">
+      <Project>{BD931336-E2A5-34DD-A726-6D03F422EB51}</Project>
+      <Name>lib520</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib521.vcxproj">
+      <Project>{0C40A873-1708-3829-BF8A-1CDDB59D009A}</Project>
+      <Name>lib521</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib523.vcxproj">
+      <Project>{A846A212-52E7-35D4-AAC0-4CBCD35BCD83}</Project>
+      <Name>lib523</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib524.vcxproj">
+      <Project>{8E113F04-0BEF-3906-83CE-2C883BC32620}</Project>
+      <Name>lib524</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib525.vcxproj">
+      <Project>{D0D602DC-B01F-3C0A-9BB1-29CB87584E57}</Project>
+      <Name>lib525</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib526.vcxproj">
+      <Project>{EFE1A2A1-41BF-3B5C-8B8C-4B6848963238}</Project>
+      <Name>lib526</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib527.vcxproj">
+      <Project>{1EF41D5E-0B35-390A-9E33-FD3D8CDE380E}</Project>
+      <Name>lib527</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib529.vcxproj">
+      <Project>{0927B1E3-1167-3589-AF53-7E650E15AFFD}</Project>
+      <Name>lib529</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib530.vcxproj">
+      <Project>{878F4C46-91F2-321C-967B-85F390109C1A}</Project>
+      <Name>lib530</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib532.vcxproj">
+      <Project>{5E107C83-E81C-334B-9518-E2F4744E3AAB}</Project>
+      <Name>lib532</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib533.vcxproj">
+      <Project>{2BF7A8B7-7F5F-3807-801A-A44FEB60D2E4}</Project>
+      <Name>lib533</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib536.vcxproj">
+      <Project>{2D7C81A3-505F-3BBA-9A86-7B5C910F7E07}</Project>
+      <Name>lib536</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib537.vcxproj">
+      <Project>{0CCD95CC-FF83-3267-AC66-9F665D62C6E2}</Project>
+      <Name>lib537</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib539.vcxproj">
+      <Project>{420FB1B2-3196-3FBD-A3EE-BFD6C49696D2}</Project>
+      <Name>lib539</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib540.vcxproj">
+      <Project>{858498B8-580E-3005-9A95-0C03D4C047F1}</Project>
+      <Name>lib540</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib541.vcxproj">
+      <Project>{83370246-4E98-3FD1-B54A-C35283F3F204}</Project>
+      <Name>lib541</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib542.vcxproj">
+      <Project>{E97207F8-2215-3811-AB80-C55EC3ADE2D5}</Project>
+      <Name>lib542</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib543.vcxproj">
+      <Project>{78F2B55A-6058-3821-B062-BEE6218D3C7C}</Project>
+      <Name>lib543</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib544.vcxproj">
+      <Project>{112BC758-138E-397A-A28F-C584B6730FC2}</Project>
+      <Name>lib544</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib545.vcxproj">
+      <Project>{91CB0950-7B00-30AD-8163-2D803B07DF39}</Project>
+      <Name>lib545</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib547.vcxproj">
+      <Project>{F6DFB761-160B-359F-8791-5A5AC44D86E8}</Project>
+      <Name>lib547</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib548.vcxproj">
+      <Project>{AC1E7D9C-F69B-359E-9E14-F9CCE1D2F2E2}</Project>
+      <Name>lib548</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib549.vcxproj">
+      <Project>{E2D96A6A-F938-361C-A7FD-3E4D8CA07FB2}</Project>
+      <Name>lib549</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib552.vcxproj">
+      <Project>{FC7C3737-C60C-3AFD-AE2D-B1CA02CB6A0C}</Project>
+      <Name>lib552</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib553.vcxproj">
+      <Project>{90818754-7CC0-3265-A80D-CF58BCDF1DCC}</Project>
+      <Name>lib553</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib554.vcxproj">
+      <Project>{69FB664E-69AD-3489-8C1A-BAB37BF3D4FE}</Project>
+      <Name>lib554</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib555.vcxproj">
+      <Project>{F887C47C-738A-3825-9228-519A266991B3}</Project>
+      <Name>lib555</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib556.vcxproj">
+      <Project>{86488B8D-4530-3A57-ADA4-417B68719F8B}</Project>
+      <Name>lib556</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib557.vcxproj">
+      <Project>{43CE4FED-8FD7-3ACC-81D8-DE34FF69ECAC}</Project>
+      <Name>lib557</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib558.vcxproj">
+      <Project>{99847349-9847-329C-861D-35EC19DC7299}</Project>
+      <Name>lib558</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib559.vcxproj">
+      <Project>{F4FBEA83-6C43-3B52-B09D-D71AB52D04F0}</Project>
+      <Name>lib559</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib560.vcxproj">
+      <Project>{871F0DBF-3511-3920-9180-5A4C976BFEC8}</Project>
+      <Name>lib560</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib562.vcxproj">
+      <Project>{9801F80F-CFA6-36AE-9699-E1042868B5D4}</Project>
+      <Name>lib562</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib564.vcxproj">
+      <Project>{3AEF9F06-7DEF-30C9-8F4F-3A4A9E4DFCAF}</Project>
+      <Name>lib564</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib565.vcxproj">
+      <Project>{1A51FF0C-BE21-3FBE-846D-D22AE90BAB29}</Project>
+      <Name>lib565</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib566.vcxproj">
+      <Project>{2D7FCBC6-49E1-354A-A465-4F230EC3DC50}</Project>
+      <Name>lib566</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib567.vcxproj">
+      <Project>{DB701F0B-7B2D-38E0-BBEE-B1A3E310923F}</Project>
+      <Name>lib567</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib568.vcxproj">
+      <Project>{864BBA48-B870-37A5-BD1E-0FACD0FF5CD9}</Project>
+      <Name>lib568</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib569.vcxproj">
+      <Project>{8E89E1FC-6827-3647-A84F-243BD5616428}</Project>
+      <Name>lib569</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib570.vcxproj">
+      <Project>{898ED52F-368D-3AB3-9AC0-4D6131EC0EF8}</Project>
+      <Name>lib570</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib571.vcxproj">
+      <Project>{BF55457B-1A2A-36FA-B53E-3F0A5338A314}</Project>
+      <Name>lib571</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib572.vcxproj">
+      <Project>{40850210-C341-3370-A7F2-5B7F6C4A8497}</Project>
+      <Name>lib572</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib573.vcxproj">
+      <Project>{EEADC547-A5FA-34BC-B357-365F49329E7B}</Project>
+      <Name>lib573</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib574.vcxproj">
+      <Project>{C0CB801E-6597-351A-807B-8BF9643CCD7A}</Project>
+      <Name>lib574</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib575.vcxproj">
+      <Project>{E5ECBBFC-6292-3FDF-9E26-22C9AA6C01F0}</Project>
+      <Name>lib575</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib576.vcxproj">
+      <Project>{2F4447E3-0EA8-3168-A2EB-CFFE9C46E0B1}</Project>
+      <Name>lib576</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib578.vcxproj">
+      <Project>{FC6E964D-B218-3389-AF43-B4F45ACBD45E}</Project>
+      <Name>lib578</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib579.vcxproj">
+      <Project>{760122AC-E4B9-3D79-A54A-549DAADF6A72}</Project>
+      <Name>lib579</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib582.vcxproj">
+      <Project>{4FBE88CE-7E2F-335D-A205-97D045E58ADE}</Project>
+      <Name>lib582</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib583.vcxproj">
+      <Project>{7636F852-865A-3BA4-AB89-9CC3F2F2B755}</Project>
+      <Name>lib583</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib585.vcxproj">
+      <Project>{2FB40649-BF5D-3890-B332-466F55A2B50C}</Project>
+      <Name>lib585</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib586.vcxproj">
+      <Project>{04B69C4A-F137-3B98-B21A-13D62E8E2E02}</Project>
+      <Name>lib586</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib587.vcxproj">
+      <Project>{9CACB69C-51C2-3496-93A0-54CF7DD23E4A}</Project>
+      <Name>lib587</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib589.vcxproj">
+      <Project>{EECFF165-88B1-33AA-BE9F-BD9CF191ACDB}</Project>
+      <Name>lib589</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib590.vcxproj">
+      <Project>{28ADA1F9-275F-3F1A-8C17-865C0C840753}</Project>
+      <Name>lib590</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib591.vcxproj">
+      <Project>{E351DD4D-2FDF-3DC0-BDDC-D82C69872F7F}</Project>
+      <Name>lib591</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib597.vcxproj">
+      <Project>{1C3D2AB2-2992-3876-8989-2F1B971289C5}</Project>
+      <Name>lib597</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib598.vcxproj">
+      <Project>{FCAF157C-6D10-353B-A3ED-CA78982DAF2A}</Project>
+      <Name>lib598</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib599.vcxproj">
+      <Project>{AD517413-CD95-3FEC-800E-F89F7FED207B}</Project>
+      <Name>lib599</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib643.vcxproj">
+      <Project>{D7C9BBEA-47EC-3B30-BAFB-C1D0A8508661}</Project>
+      <Name>lib643</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib644.vcxproj">
+      <Project>{8ADCDF0C-73AB-33A3-BAF6-40EC529691AC}</Project>
+      <Name>lib644</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib645.vcxproj">
+      <Project>{7C6E905D-AAD6-302D-92B9-14EF5CB45E53}</Project>
+      <Name>lib645</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib650.vcxproj">
+      <Project>{1266A635-D9BA-3087-89D3-51305CC47D76}</Project>
+      <Name>lib650</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib651.vcxproj">
+      <Project>{F87EAB2C-746D-3F34-A49C-D18A2C3B649B}</Project>
+      <Name>lib651</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib652.vcxproj">
+      <Project>{4717CCA3-D7DF-3F2F-A2CF-CF2CD1634F8B}</Project>
+      <Name>lib652</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib653.vcxproj">
+      <Project>{98C4A48F-9F9E-388F-83F9-33F022FF7095}</Project>
+      <Name>lib653</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib654.vcxproj">
+      <Project>{2C42FD7C-ADE9-3665-A4D7-79299E8FB6B5}</Project>
+      <Name>lib654</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\lib655.vcxproj">
+      <Project>{1FF2A236-7DEF-38A7-BDB7-E0CA5648A93E}</Project>
+      <Name>lib655</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\libauthretry.vcxproj">
+      <Project>{382F6BE4-4DB0-3510-8445-60BC8C73D921}</Project>
+      <Name>libauthretry</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\lib\libcurl.vcxproj">
+      <Project>{E8130D5A-F2A6-3CCC-90A5-E0EF360F49FA}</Project>
+      <Name>libcurl</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\libtest\libntlmconnect.vcxproj">
+      <Project>{C8866650-3643-3AC5-B810-2B216D53C041}</Project>
+      <Name>libntlmconnect</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\resolve.vcxproj">
+      <Project>{4A3893C1-E85C-3C21-B726-D26BABC8D80F}</Project>
+      <Name>resolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\rtspd.vcxproj">
+      <Project>{50A254C3-E3CA-30C4-A2E4-5AD72DFEC4F6}</Project>
+      <Name>rtspd</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\sockfilt.vcxproj">
+      <Project>{419F4A7E-DED4-3003-9420-AF6C8EFC3F46}</Project>
+      <Name>sockfilt</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\sws.vcxproj">
+      <Project>{224B7C70-E2B1-3123-A9ED-9DDE9E99C7B3}</Project>
+      <Name>sws</Name>
+    </ProjectReference>
+    <ProjectReference Include="$(SolutionDir)curl-7.61.0\build\tests\server\tftpd.vcxproj">
+      <Project>{4C55FA66-4493-377F-A58C-38AACB4CD7F7}</Project>
+      <Name>tftpd</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

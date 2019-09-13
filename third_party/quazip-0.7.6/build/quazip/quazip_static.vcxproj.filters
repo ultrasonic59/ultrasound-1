@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\unzip.c" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\zip.c" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\JlCompress.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\qioapi.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quaadler32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quacrc32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quagzipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quaziodevice.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazip.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipdir.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipfileinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipnewinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_JlCompress.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_ioapi.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_minizip_crypt.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quaadler32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quachecksum32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quacrc32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quagzipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quaziodevice.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazip.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazip_global.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipdir.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipfileinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipnewinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_unzip.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_zip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{224D0B37-3C61-3F73-A360-B2C9AD46DFA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A7F19AEE-8079-34F2-88F3-C22CE8C07F4F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

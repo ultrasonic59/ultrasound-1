@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\source\ruds_app\third_party\zlib-1.2.11\build\CMakeFiles\956a57bf4906f6242cb27efcf9b87baa\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D54E08C9-5C6F-3E30-8151-555BE629CB35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

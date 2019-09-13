@@ -1,0 +1,2291 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.25420.1
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 8/15/2018 12:26:28 AM��
+�ڵ� 1 �ϵ���Ŀ��C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\3.12.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\3.12.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.77
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/3.12.0/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1f488.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:29 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_1f488.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1f488.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1f488.dir\Debug\cmTC_1f488.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1f488.dir\Debug\cmTC_1f488.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f488.dir\Debug\\" /Fd"cmTC_1f488.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f488.dir\Debug\\" /Fd"cmTC_1f488.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_1f488.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1f488.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1f488.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1f488.dir\Debug\testCCompiler.obj
+  cmTC_1f488.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_1f488.exe
+  cmTC_1f488.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1f488.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1f488.dir\Debug\cmTC_1f488.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1f488.dir\Debug\cmTC_1f488.tlog\cmTC_1f488.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_1f488.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.06
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_320e8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:31 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_320e8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_320e8.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_320e8.dir\Debug\cmTC_320e8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_320e8.dir\Debug\cmTC_320e8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_320e8.dir\Debug\\" /Fd"cmTC_320e8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_320e8.dir\Debug\\" /Fd"cmTC_320e8.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_320e8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_320e8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_320e8.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_320e8.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_320e8.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_320e8.exe
+  cmTC_320e8.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_320e8.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_320e8.dir\Debug\cmTC_320e8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_320e8.dir\Debug\cmTC_320e8.tlog\cmTC_320e8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_320e8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+
+
+
+Detecting C [] compiler features compiled with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b171f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:32 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_b171f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b171f.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b171f.dir\Debug\cmTC_b171f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b171f.dir\Debug\cmTC_b171f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b171f.dir\Debug\\" /Fd"cmTC_b171f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\feature_tests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b171f.dir\Debug\\" /Fd"cmTC_b171f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\feature_tests.c"
+  
+  feature_tests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_b171f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b171f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b171f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b171f.dir\Debug\feature_tests.obj
+  cmTC_b171f.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_b171f.exe
+  cmTC_b171f.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b171f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b171f.dir\Debug\cmTC_b171f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b171f.dir\Debug\cmTC_b171f.tlog\cmTC_b171f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_b171f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.82
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_variadic_macros
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6d391.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:34 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_6d391.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6d391.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6d391.dir\Debug\cmTC_6d391.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6d391.dir\Debug\cmTC_6d391.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d391.dir\Debug\\" /Fd"cmTC_6d391.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d391.dir\Debug\\" /Fd"cmTC_6d391.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_6d391.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d391.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d391.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6d391.dir\Debug\CheckFunctionExists.obj
+  cmTC_6d391.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_6d391.exe
+  cmTC_6d391.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6d391.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6d391.dir\Debug\cmTC_6d391.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6d391.dir\Debug\cmTC_6d391.tlog\cmTC_6d391.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_6d391.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_51d04.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:35 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_51d04.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_51d04.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_51d04.dir\Debug\cmTC_51d04.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_51d04.dir\Debug\cmTC_51d04.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51d04.dir\Debug\\" /Fd"cmTC_51d04.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51d04.dir\Debug\\" /Fd"cmTC_51d04.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_51d04.exe" /INCREMENTAL /NOLOGO winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_51d04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_51d04.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_51d04.dir\Debug\CheckFunctionExists.obj
+  cmTC_51d04.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_51d04.exe
+  cmTC_51d04.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_51d04.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_51d04.dir\Debug\cmTC_51d04.tlog\unsuccessfulbuild”。
+  正在对“cmTC_51d04.dir\Debug\cmTC_51d04.tlog\cmTC_51d04.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_51d04.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining if the function cldap_open exists in the wldap32;winmm;ws2_32;advapi32 passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_9555c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:36 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_9555c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9555c.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9555c.dir\Debug\cmTC_9555c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9555c.dir\Debug\cmTC_9555c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9555c.dir\Debug\\" /Fd"cmTC_9555c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=cldap_open /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9555c.dir\Debug\\" /Fd"cmTC_9555c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_9555c.exe" /INCREMENTAL /NOLOGO wldap32.lib winmm.lib ws2_32.lib advapi32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_9555c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_9555c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9555c.dir\Debug\CheckFunctionExists.obj
+  cmTC_9555c.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_9555c.exe
+  cmTC_9555c.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_9555c.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_9555c.dir\Debug\cmTC_9555c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9555c.dir\Debug\cmTC_9555c.tlog\cmTC_9555c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_9555c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.78
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6fb81.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:42 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_6fb81.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6fb81.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6fb81.dir\Debug\cmTC_6fb81.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6fb81.dir\Debug\cmTC_6fb81.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fb81.dir\Debug\\" /Fd"cmTC_6fb81.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6fb81.dir\Debug\\" /Fd"cmTC_6fb81.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c"
+  
+  HAVE_WINDOWS_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_6fb81.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6fb81.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6fb81.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6fb81.dir\Debug\HAVE_WINDOWS_H.obj
+  cmTC_6fb81.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_6fb81.exe
+  cmTC_6fb81.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6fb81.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6fb81.dir\Debug\cmTC_6fb81.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6fb81.dir\Debug\cmTC_6fb81.tlog\cmTC_6fb81.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_6fb81.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.08
+
+
+Determining if files windows.h;winsock.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_70684.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:43 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_70684.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_70684.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_70684.dir\Debug\cmTC_70684.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_70684.dir\Debug\cmTC_70684.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70684.dir\Debug\\" /Fd"cmTC_70684.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70684.dir\Debug\\" /Fd"cmTC_70684.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c"
+  
+  HAVE_WINSOCK_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_70684.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_70684.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_70684.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_70684.dir\Debug\HAVE_WINSOCK_H.obj
+  cmTC_70684.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_70684.exe
+  cmTC_70684.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_70684.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_70684.dir\Debug\cmTC_70684.tlog\unsuccessfulbuild”。
+  正在对“cmTC_70684.dir\Debug\cmTC_70684.tlog\cmTC_70684.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_70684.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.11
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_798c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:45 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_798c5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_798c5.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_798c5.dir\Debug\cmTC_798c5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_798c5.dir\Debug\cmTC_798c5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_798c5.dir\Debug\\" /Fd"cmTC_798c5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_798c5.dir\Debug\\" /Fd"cmTC_798c5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c"
+  
+  HAVE_WS2TCPIP_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_798c5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_798c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_798c5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_798c5.dir\Debug\HAVE_WS2TCPIP_H.obj
+  cmTC_798c5.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_798c5.exe
+  cmTC_798c5.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_798c5.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_798c5.dir\Debug\cmTC_798c5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_798c5.dir\Debug\cmTC_798c5.tlog\cmTC_798c5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_798c5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.30
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_5a286.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:46 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_5a286.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5a286.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5a286.dir\Debug\cmTC_5a286.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5a286.dir\Debug\cmTC_5a286.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a286.dir\Debug\\" /Fd"cmTC_5a286.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a286.dir\Debug\\" /Fd"cmTC_5a286.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c"
+  
+  HAVE_WINSOCK2_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_5a286.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_5a286.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_5a286.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_5a286.dir\Debug\HAVE_WINSOCK2_H.obj
+  cmTC_5a286.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_5a286.exe
+  cmTC_5a286.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_5a286.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5a286.dir\Debug\cmTC_5a286.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5a286.dir\Debug\cmTC_5a286.tlog\cmTC_5a286.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_5a286.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.10
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_84b4e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:26:48 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_84b4e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_84b4e.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_84b4e.dir\Debug\cmTC_84b4e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_84b4e.dir\Debug\cmTC_84b4e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84b4e.dir\Debug\\" /Fd"cmTC_84b4e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84b4e.dir\Debug\\" /Fd"cmTC_84b4e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c"
+  
+  HAVE_STDIO_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_84b4e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_84b4e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_84b4e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_84b4e.dir\Debug\HAVE_STDIO_H.obj
+  cmTC_84b4e.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_84b4e.exe
+  cmTC_84b4e.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_84b4e.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_84b4e.dir\Debug\cmTC_84b4e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_84b4e.dir\Debug\cmTC_84b4e.tlog\cmTC_84b4e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_84b4e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.43
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_e67af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:03 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_e67af.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e67af.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e67af.dir\Debug\cmTC_e67af.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e67af.dir\Debug\cmTC_e67af.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e67af.dir\Debug\\" /Fd"cmTC_e67af.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e67af.dir\Debug\\" /Fd"cmTC_e67af.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c"
+  
+  HAVE_ASSERT_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_e67af.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e67af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e67af.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_e67af.dir\Debug\HAVE_ASSERT_H.obj
+  cmTC_e67af.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_e67af.exe
+  cmTC_e67af.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_e67af.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e67af.dir\Debug\cmTC_e67af.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e67af.dir\Debug\cmTC_e67af.tlog\cmTC_e67af.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_e67af.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:05.97
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0d250.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:17 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_0d250.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0d250.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0d250.dir\Debug\cmTC_0d250.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0d250.dir\Debug\cmTC_0d250.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d250.dir\Debug\\" /Fd"cmTC_0d250.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d250.dir\Debug\\" /Fd"cmTC_0d250.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c"
+  
+  HAVE_ERRNO_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d250.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d250.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d250.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0d250.dir\Debug\HAVE_ERRNO_H.obj
+  cmTC_0d250.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d250.exe
+  cmTC_0d250.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d250.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0d250.dir\Debug\cmTC_0d250.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0d250.dir\Debug\cmTC_0d250.tlog\cmTC_0d250.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_0d250.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.21
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_a67ce.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:24 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_a67ce.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a67ce.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a67ce.dir\Debug\cmTC_a67ce.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a67ce.dir\Debug\cmTC_a67ce.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a67ce.dir\Debug\\" /Fd"cmTC_a67ce.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a67ce.dir\Debug\\" /Fd"cmTC_a67ce.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c"
+  
+  HAVE_LOCALE_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_a67ce.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_a67ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_a67ce.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_a67ce.dir\Debug\HAVE_LOCALE_H.obj
+  cmTC_a67ce.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_a67ce.exe
+  cmTC_a67ce.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_a67ce.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a67ce.dir\Debug\cmTC_a67ce.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a67ce.dir\Debug\cmTC_a67ce.tlog\cmTC_a67ce.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_a67ce.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.16
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_46eff.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:31 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_46eff.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_46eff.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_46eff.dir\Debug\cmTC_46eff.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_46eff.dir\Debug\cmTC_46eff.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46eff.dir\Debug\\" /Fd"cmTC_46eff.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46eff.dir\Debug\\" /Fd"cmTC_46eff.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c"
+  
+  HAVE_STDBOOL_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_46eff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_46eff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_46eff.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_46eff.dir\Debug\HAVE_STDBOOL_H.obj
+  cmTC_46eff.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_46eff.exe
+  cmTC_46eff.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_46eff.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_46eff.dir\Debug\cmTC_46eff.tlog\unsuccessfulbuild”。
+  正在对“cmTC_46eff.dir\Debug\cmTC_46eff.tlog\cmTC_46eff.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_46eff.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+
+Determining if files windows.h;winsock.h;ws2tcpip.h;winsock2.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d94bc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:33 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d94bc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d94bc.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d94bc.dir\Debug\cmTC_d94bc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d94bc.dir\Debug\cmTC_d94bc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d94bc.dir\Debug\\" /Fd"cmTC_d94bc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d94bc.dir\Debug\\" /Fd"cmTC_d94bc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c"
+  
+  HAVE_STDDEF_H.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d94bc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d94bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d94bc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d94bc.dir\Debug\HAVE_STDDEF_H.obj
+  cmTC_d94bc.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d94bc.exe
+  cmTC_d94bc.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d94bc.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d94bc.dir\Debug\cmTC_d94bc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d94bc.dir\Debug\cmTC_d94bc.tlog\cmTC_d94bc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d94bc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_6f06a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:36 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_6f06a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_6f06a.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_6f06a.dir\Debug\cmTC_6f06a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_6f06a.dir\Debug\cmTC_6f06a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f06a.dir\Debug\\" /Fd"cmTC_6f06a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f06a.dir\Debug\\" /Fd"cmTC_6f06a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c"
+  
+  SIZEOF_SIZE_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f06a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f06a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f06a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_6f06a.dir\Debug\SIZEOF_SIZE_T.obj
+  cmTC_6f06a.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_6f06a.exe
+  cmTC_6f06a.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_6f06a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_6f06a.dir\Debug\cmTC_6f06a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_6f06a.dir\Debug\cmTC_6f06a.tlog\cmTC_6f06a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_6f06a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.89
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_98e1f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:38 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_98e1f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_98e1f.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_98e1f.dir\Debug\cmTC_98e1f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_98e1f.dir\Debug\cmTC_98e1f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98e1f.dir\Debug\\" /Fd"cmTC_98e1f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98e1f.dir\Debug\\" /Fd"cmTC_98e1f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c"
+  
+  SIZEOF_LONG_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_98e1f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_98e1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_98e1f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_98e1f.dir\Debug\SIZEOF_LONG_LONG.obj
+  cmTC_98e1f.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_98e1f.exe
+  cmTC_98e1f.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_98e1f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_98e1f.dir\Debug\cmTC_98e1f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_98e1f.dir\Debug\cmTC_98e1f.tlog\cmTC_98e1f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_98e1f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7bbee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:39 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_7bbee.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7bbee.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7bbee.dir\Debug\cmTC_7bbee.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7bbee.dir\Debug\cmTC_7bbee.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bbee.dir\Debug\\" /Fd"cmTC_7bbee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7bbee.dir\Debug\\" /Fd"cmTC_7bbee.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c"
+  
+  SIZEOF_LONG.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7bbee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7bbee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7bbee.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7bbee.dir\Debug\SIZEOF_LONG.obj
+  cmTC_7bbee.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7bbee.exe
+  cmTC_7bbee.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7bbee.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7bbee.dir\Debug\cmTC_7bbee.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7bbee.dir\Debug\cmTC_7bbee.tlog\cmTC_7bbee.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_7bbee.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.91
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fb0ae.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:40 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_fb0ae.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_fb0ae.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_fb0ae.dir\Debug\cmTC_fb0ae.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_fb0ae.dir\Debug\cmTC_fb0ae.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb0ae.dir\Debug\\" /Fd"cmTC_fb0ae.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb0ae.dir\Debug\\" /Fd"cmTC_fb0ae.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c"
+  
+  SIZEOF_SHORT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fb0ae.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fb0ae.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fb0ae.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_fb0ae.dir\Debug\SIZEOF_SHORT.obj
+  cmTC_fb0ae.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_fb0ae.exe
+  cmTC_fb0ae.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_fb0ae.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_fb0ae.dir\Debug\cmTC_fb0ae.tlog\unsuccessfulbuild”。
+  正在对“cmTC_fb0ae.dir\Debug\cmTC_fb0ae.tlog\cmTC_fb0ae.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_fb0ae.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0a55d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:42 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_0a55d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0a55d.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0a55d.dir\Debug\cmTC_0a55d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0a55d.dir\Debug\cmTC_0a55d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a55d.dir\Debug\\" /Fd"cmTC_0a55d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a55d.dir\Debug\\" /Fd"cmTC_0a55d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_INT.c"
+  
+  SIZEOF_INT.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_0a55d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0a55d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0a55d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0a55d.dir\Debug\SIZEOF_INT.obj
+  cmTC_0a55d.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_0a55d.exe
+  cmTC_0a55d.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0a55d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0a55d.dir\Debug\cmTC_0a55d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0a55d.dir\Debug\cmTC_0a55d.tlog\cmTC_0a55d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_0a55d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_74f28.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:43 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_74f28.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_74f28.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_74f28.dir\Debug\cmTC_74f28.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_74f28.dir\Debug\cmTC_74f28.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74f28.dir\Debug\\" /Fd"cmTC_74f28.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_74f28.dir\Debug\\" /Fd"cmTC_74f28.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c"
+  
+  SIZEOF___INT64.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_74f28.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_74f28.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_74f28.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_74f28.dir\Debug\SIZEOF___INT64.obj
+  cmTC_74f28.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_74f28.exe
+  cmTC_74f28.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_74f28.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_74f28.dir\Debug\cmTC_74f28.tlog\unsuccessfulbuild”。
+  正在对“cmTC_74f28.dir\Debug\cmTC_74f28.tlog\cmTC_74f28.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_74f28.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.83
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_7930d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:44 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_7930d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7930d.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7930d.dir\Debug\cmTC_7930d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7930d.dir\Debug\cmTC_7930d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7930d.dir\Debug\\" /Fd"cmTC_7930d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7930d.dir\Debug\\" /Fd"cmTC_7930d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c"
+  
+  SIZEOF_TIME_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7930d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7930d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7930d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7930d.dir\Debug\SIZEOF_TIME_T.obj
+  cmTC_7930d.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_7930d.exe
+  cmTC_7930d.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_7930d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7930d.dir\Debug\cmTC_7930d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7930d.dir\Debug\cmTC_7930d.tlog\cmTC_7930d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_7930d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.79
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_73641.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:49 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_73641.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_73641.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_73641.dir\Debug\cmTC_73641.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_73641.dir\Debug\cmTC_73641.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73641.dir\Debug\\" /Fd"cmTC_73641.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73641.dir\Debug\\" /Fd"cmTC_73641.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_73641.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_73641.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_73641.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_73641.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_73641.dir\Debug\CheckSymbolExists.obj
+  cmTC_73641.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_73641.exe
+  cmTC_73641.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_73641.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_73641.dir\Debug\cmTC_73641.tlog\unsuccessfulbuild”。
+  正在对“cmTC_73641.dir\Debug\cmTC_73641.tlog\cmTC_73641.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_73641.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_73641.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_73641.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1e62e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:51 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_1e62e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1e62e.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1e62e.dir\Debug\cmTC_1e62e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1e62e.dir\Debug\cmTC_1e62e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e62e.dir\Debug\\" /Fd"cmTC_1e62e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e62e.dir\Debug\\" /Fd"cmTC_1e62e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_1e62e.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1e62e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1e62e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1e62e.dir\Debug\CheckSymbolExists.obj
+  cmTC_1e62e.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_1e62e.exe
+  cmTC_1e62e.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1e62e.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1e62e.dir\Debug\cmTC_1e62e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1e62e.dir\Debug\cmTC_1e62e.tlog\cmTC_1e62e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_1e62e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_112c5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:52 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_112c5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_112c5.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_112c5.dir\Debug\cmTC_112c5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_112c5.dir\Debug\cmTC_112c5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_112c5.dir\Debug\\" /Fd"cmTC_112c5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_112c5.dir\Debug\\" /Fd"cmTC_112c5.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_112c5.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_112c5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_112c5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_112c5.dir\Debug\CheckSymbolExists.obj
+  cmTC_112c5.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_112c5.exe
+  cmTC_112c5.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_112c5.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_112c5.dir\Debug\cmTC_112c5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_112c5.dir\Debug\cmTC_112c5.tlog\cmTC_112c5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_112c5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_65e1e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:27:57 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_65e1e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_65e1e.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_65e1e.dir\Debug\cmTC_65e1e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_65e1e.dir\Debug\cmTC_65e1e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65e1e.dir\Debug\\" /Fd"cmTC_65e1e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65e1e.dir\Debug\\" /Fd"cmTC_65e1e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_65e1e.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_65e1e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_65e1e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_65e1e.dir\Debug\CheckSymbolExists.obj
+  cmTC_65e1e.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_65e1e.exe
+  cmTC_65e1e.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_65e1e.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_65e1e.dir\Debug\cmTC_65e1e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_65e1e.dir\Debug\cmTC_65e1e.tlog\cmTC_65e1e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_65e1e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.12
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getprotobyname exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b5dde.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:02 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_b5dde.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b5dde.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b5dde.dir\Debug\cmTC_b5dde.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b5dde.dir\Debug\cmTC_b5dde.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5dde.dir\Debug\\" /Fd"cmTC_b5dde.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5dde.dir\Debug\\" /Fd"cmTC_b5dde.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_b5dde.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b5dde.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b5dde.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b5dde.dir\Debug\CheckSymbolExists.obj
+  cmTC_b5dde.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_b5dde.exe
+  cmTC_b5dde.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_b5dde.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b5dde.dir\Debug\cmTC_b5dde.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b5dde.dir\Debug\cmTC_b5dde.tlog\cmTC_b5dde.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_b5dde.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.19
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobyname
+  return ((int*)(&getprotobyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setlocale exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d702a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:04 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d702a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d702a.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d702a.dir\Debug\cmTC_d702a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d702a.dir\Debug\cmTC_d702a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d702a.dir\Debug\\" /Fd"cmTC_d702a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d702a.dir\Debug\\" /Fd"cmTC_d702a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d702a.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d702a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d702a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d702a.dir\Debug\CheckSymbolExists.obj
+  cmTC_d702a.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d702a.exe
+  cmTC_d702a.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d702a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d702a.dir\Debug\cmTC_d702a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d702a.dir\Debug\cmTC_d702a.tlog\cmTC_d702a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d702a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.16
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setmode exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_43f2f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:06 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_43f2f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_43f2f.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_43f2f.dir\Debug\cmTC_43f2f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_43f2f.dir\Debug\cmTC_43f2f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43f2f.dir\Debug\\" /Fd"cmTC_43f2f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43f2f.dir\Debug\\" /Fd"cmTC_43f2f.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details. [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_43f2f.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\corecrt_io.h(530): note: see declaration of 'setmode'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_43f2f.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_43f2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_43f2f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_43f2f.dir\Debug\CheckSymbolExists.obj
+  cmTC_43f2f.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_43f2f.exe
+  cmTC_43f2f.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_43f2f.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_43f2f.dir\Debug\cmTC_43f2f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_43f2f.dir\Debug\cmTC_43f2f.tlog\cmTC_43f2f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_43f2f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_43f2f.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c(31): warning C4996: 'setmode': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _setmode. See online help for details. [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_43f2f.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.14
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setsockopt exist passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_df575.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:10 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_df575.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_df575.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_df575.dir\Debug\cmTC_df575.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_df575.dir\Debug\cmTC_df575.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df575.dir\Debug\\" /Fd"cmTC_df575.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df575.dir\Debug\\" /Fd"cmTC_df575.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_df575.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_df575.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_df575.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_df575.dir\Debug\CheckSymbolExists.obj
+  cmTC_df575.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_df575.exe
+  cmTC_df575.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_df575.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_df575.dir\Debug\cmTC_df575.tlog\unsuccessfulbuild”。
+  正在对“cmTC_df575.dir\Debug\cmTC_df575.tlog\cmTC_df575.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_df575.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.20
+
+File C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <winsock.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setsockopt
+  return ((int*)(&setsockopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing Curl Test HAVE_IOCTLSOCKET passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cc4fe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:16 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_cc4fe.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cc4fe.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cc4fe.dir\Debug\cmTC_cc4fe.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cc4fe.dir\Debug\cmTC_cc4fe.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc4fe.dir\Debug\\" /Fd"cmTC_cc4fe.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc4fe.dir\Debug\\" /Fd"cmTC_cc4fe.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+c:\git\ultrasound\third_party\curl-7.61.0\cmake\curltests.c(322): warning C4700: uninitialized local variable 'socket' used [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_cc4fe.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_cc4fe.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_cc4fe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_cc4fe.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cc4fe.dir\Debug\CurlTests.obj
+  cmTC_cc4fe.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_cc4fe.exe
+  cmTC_cc4fe.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_cc4fe.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cc4fe.dir\Debug\cmTC_cc4fe.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cc4fe.dir\Debug\cmTC_cc4fe.tlog\cmTC_cc4fe.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_cc4fe.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_cc4fe.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  c:\git\ultrasound\third_party\curl-7.61.0\cmake\curltests.c(322): warning C4700: uninitialized local variable 'socket' used [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_cc4fe.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.00
+
+Performing Curl Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_2512b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:18 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_2512b.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2512b.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2512b.dir\Debug\cmTC_2512b.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2512b.dir\Debug\cmTC_2512b.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2512b.dir\Debug\\" /Fd"cmTC_2512b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_CAMEL_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2512b.dir\Debug\\" /Fd"cmTC_2512b.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_2512b.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_2512b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_2512b.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_2512b.dir\Debug\CurlTests.obj
+  cmTC_2512b.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_2512b.exe
+  cmTC_2512b.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_2512b.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2512b.dir\Debug\cmTC_2512b.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2512b.dir\Debug\cmTC_2512b.tlog\cmTC_2512b.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_2512b.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+Performing Curl Test HAVE_IOCTLSOCKET_FIONBIO passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_27448.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:20 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_27448.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_27448.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_27448.dir\Debug\cmTC_27448.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_27448.dir\Debug\cmTC_27448.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27448.dir\Debug\\" /Fd"cmTC_27448.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IOCTLSOCKET_FIONBIO /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27448.dir\Debug\\" /Fd"cmTC_27448.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_27448.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_27448.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_27448.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_27448.dir\Debug\CurlTests.obj
+  cmTC_27448.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_27448.exe
+  cmTC_27448.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_27448.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_27448.dir\Debug\cmTC_27448.tlog\unsuccessfulbuild”。
+  正在对“cmTC_27448.dir\Debug\cmTC_27448.tlog\cmTC_27448.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_27448.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.00
+
+Performing Curl Test HAVE_SOCKLEN_T passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_55c9e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:25 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_55c9e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_55c9e.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_55c9e.dir\Debug\cmTC_55c9e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_55c9e.dir\Debug\cmTC_55c9e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55c9e.dir\Debug\\" /Fd"cmTC_55c9e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55c9e.dir\Debug\\" /Fd"cmTC_55c9e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_55c9e.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_55c9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_55c9e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_55c9e.dir\Debug\CurlTests.obj
+  cmTC_55c9e.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_55c9e.exe
+  cmTC_55c9e.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_55c9e.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_55c9e.dir\Debug\cmTC_55c9e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_55c9e.dir\Debug\cmTC_55c9e.tlog\cmTC_55c9e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_55c9e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.29
+
+Performing Curl Test HAVE_BOOL_T passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_643cc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:26 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_643cc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_643cc.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_643cc.dir\Debug\cmTC_643cc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_643cc.dir\Debug\cmTC_643cc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_643cc.dir\Debug\\" /Fd"cmTC_643cc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D HAVE_WINDOWS_H /D HAVE_WINSOCK_H /D HAVE_WS2TCPIP_H /D HAVE_WINSOCK2_H /D HAVE_STDIO_H /D HAVE_SYS_STAT_H /D HAVE_SYS_TYPES_H /D HAVE_SYS_UTIME_H /D HAVE_ASSERT_H /D HAVE_ERRNO_H /D HAVE_FCNTL_H /D HAVE_IO_H /D HAVE_LOCALE_H /D HAVE_SETJMP_H /D HAVE_SIGNAL_H /D HAVE_STDBOOL_H /D HAVE_STDLIB_H /D HAVE_STRING_H /D HAVE_TIME_H /D HAVE_PROCESS_H /D HAVE_STDDEF_H /D HAVE_MALLOC_H /D HAVE_MEMORY_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_643cc.dir\Debug\\" /Fd"cmTC_643cc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\CMake\CurlTests.c"
+  
+  CurlTests.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_643cc.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_643cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_643cc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_643cc.dir\Debug\CurlTests.obj
+  cmTC_643cc.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_643cc.exe
+  cmTC_643cc.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_643cc.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_643cc.dir\Debug\cmTC_643cc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_643cc.dir\Debug\cmTC_643cc.tlog\cmTC_643cc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_643cc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.00
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_999fb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:28 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_999fb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_999fb.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_999fb.dir\Debug\cmTC_999fb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_999fb.dir\Debug\cmTC_999fb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_999fb.dir\Debug\\" /Fd"cmTC_999fb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_999fb.dir\Debug\\" /Fd"cmTC_999fb.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c"
+  
+  SIZEOF_OFF_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_999fb.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_999fb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_999fb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_999fb.dir\Debug\SIZEOF_OFF_T.obj
+  cmTC_999fb.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_999fb.exe
+  cmTC_999fb.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_999fb.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_999fb.dir\Debug\cmTC_999fb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_999fb.dir\Debug\cmTC_999fb.tlog\cmTC_999fb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_999fb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.03
+
+
+Determining size of curl_off_t passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_37f6d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:30 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_37f6d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_37f6d.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_37f6d.dir\Debug\cmTC_37f6d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_37f6d.dir\Debug\cmTC_37f6d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37f6d.dir\Debug\\" /Fd"cmTC_37f6d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37f6d.dir\Debug\\" /Fd"cmTC_37f6d.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c"
+  
+  SIZEOF_CURL_OFF_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_37f6d.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_37f6d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_37f6d.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_37f6d.dir\Debug\SIZEOF_CURL_OFF_T.obj
+  cmTC_37f6d.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_37f6d.exe
+  cmTC_37f6d.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_37f6d.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_37f6d.dir\Debug\cmTC_37f6d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_37f6d.dir\Debug\cmTC_37f6d.tlog\cmTC_37f6d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_37f6d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.91
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c4df7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:34 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_c4df7.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c4df7.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c4df7.dir\Debug\cmTC_c4df7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c4df7.dir\Debug\cmTC_c4df7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4df7.dir\Debug\\" /Fd"cmTC_c4df7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4df7.dir\Debug\\" /Fd"cmTC_c4df7.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\CURL_SIZEOF_CURL_SOCKLEN_T.c"
+  
+  CURL_SIZEOF_CURL_SOCKLEN_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_c4df7.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_c4df7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_c4df7.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c4df7.dir\Debug\CURL_SIZEOF_CURL_SOCKLEN_T.obj
+  cmTC_c4df7.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_c4df7.exe
+  cmTC_c4df7.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_c4df7.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c4df7.dir\Debug\cmTC_c4df7.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c4df7.dir\Debug\cmTC_c4df7.tlog\cmTC_c4df7.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_c4df7.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.52
+
+
+Performing C SOURCE FILE Test curl_cv_recv succeeded with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_40a40.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:36 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_40a40.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_40a40.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_40a40.dir\Debug\cmTC_40a40.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_40a40.dir\Debug\cmTC_40a40.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_recv /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40a40.dir\Debug\\" /Fd"cmTC_40a40.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_recv /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40a40.dir\Debug\\" /Fd"cmTC_40a40.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_40a40.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_40a40.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_40a40.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_40a40.dir\Debug\src.obj
+  cmTC_40a40.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_40a40.exe
+  cmTC_40a40.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_40a40.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_40a40.dir\Debug\cmTC_40a40.tlog\unsuccessfulbuild”。
+  正在对“cmTC_40a40.dir\Debug\cmTC_40a40.tlog\cmTC_40a40.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_40a40.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.68
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    recv(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_recv_test succeeded with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d6903.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:38 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d6903.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d6903.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d6903.dir\Debug\cmTC_d6903.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d6903.dir\Debug\cmTC_d6903.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_func_recv_test /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6903.dir\Debug\\" /Fd"cmTC_d6903.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_func_recv_test /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6903.dir\Debug\\" /Fd"cmTC_d6903.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c(10): warning C4273: 'recv': inconsistent dll linkage [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d6903.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2001): note: see previous definition of 'recv'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6903.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6903.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6903.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d6903.dir\Debug\src.obj
+  cmTC_d6903.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_d6903.exe
+  cmTC_d6903.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_d6903.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d6903.dir\Debug\cmTC_d6903.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d6903.dir\Debug\cmTC_d6903.tlog\cmTC_d6903.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d6903.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d6903.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c(10): warning C4273: 'recv': inconsistent dll linkage [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_d6903.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.57
+
+Source file was:
+
+                  #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  recv(SOCKET, char *, int, int);
+                  int main(void) {
+                    SOCKET s=0;
+                    char * buf=0;
+                    int len=0;
+                    int flags=0;
+                    int res = recv(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test curl_cv_send succeeded with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c23fd.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:40 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_c23fd.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_c23fd.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_c23fd.dir\Debug\cmTC_c23fd.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_c23fd.dir\Debug\cmTC_c23fd.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_send /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c23fd.dir\Debug\\" /Fd"cmTC_c23fd.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_send /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c23fd.dir\Debug\\" /Fd"cmTC_c23fd.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_c23fd.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_c23fd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_c23fd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_c23fd.dir\Debug\src.obj
+  cmTC_c23fd.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_c23fd.exe
+  cmTC_c23fd.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_c23fd.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_c23fd.dir\Debug\cmTC_c23fd.tlog\unsuccessfulbuild”。
+  正在对“cmTC_c23fd.dir\Debug\cmTC_c23fd.tlog\cmTC_c23fd.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_c23fd.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.52
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+    send(0, 0, 0, 0);
+    return 0;
+}
+Performing C SOURCE FILE Test curl_cv_func_send_test succeeded with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_16472.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:41 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_16472.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_16472.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_16472.dir\Debug\cmTC_16472.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_16472.dir\Debug\cmTC_16472.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_func_send_test /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16472.dir\Debug\\" /Fd"cmTC_16472.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D curl_cv_func_send_test /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16472.dir\Debug\\" /Fd"cmTC_16472.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c(10): warning C4273: 'send': inconsistent dll linkage [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_16472.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\um\winsock2.h(2076): note: see previous definition of 'send'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_16472.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_16472.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_16472.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_16472.dir\Debug\src.obj
+  cmTC_16472.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_16472.exe
+  cmTC_16472.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_16472.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_16472.dir\Debug\cmTC_16472.tlog\unsuccessfulbuild”。
+  正在对“cmTC_16472.dir\Debug\cmTC_16472.tlog\cmTC_16472.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_16472.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_16472.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c(10): warning C4273: 'send': inconsistent dll linkage [C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_16472.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.16
+
+Source file was:
+
+                  #undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+                  extern int PASCAL
+                  send(SOCKET, const char *, int, int);
+                  int main(void) {
+                    SOCKET s=0;
+                    const char * buf=0;
+                    int len=0;
+                    int flags=0;
+                    int res = send(s, buf, len, flags);
+                    (void) res;
+                    return 0;
+                  }
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_1673e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:44 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_1673e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1673e.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1673e.dir\Debug\cmTC_1673e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1673e.dir\Debug\cmTC_1673e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TIMEVAL /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1673e.dir\Debug\\" /Fd"cmTC_1673e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TIMEVAL /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1673e.dir\Debug\\" /Fd"cmTC_1673e.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_1673e.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1673e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1673e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_1673e.dir\Debug\src.obj
+  cmTC_1673e.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_1673e.exe
+  cmTC_1673e.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_1673e.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1673e.dir\Debug\cmTC_1673e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1673e.dir\Debug\cmTC_1673e.tlog\cmTC_1673e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_1673e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.11
+
+Source file was:
+#undef inline
+#include <winsock2.h>
+#include <windows.h>
+#include <winsock.h>
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
+int main(void) {
+  struct timeval ts;
+  ts.tv_sec  = 0;
+  ts.tv_usec = 0;
+  (void)ts;
+  return 0;
+}
+Determining size of sig_atomic_t passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0d30c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:46 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_0d30c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_0d30c.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_0d30c.dir\Debug\cmTC_0d30c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_0d30c.dir\Debug\cmTC_0d30c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d30c.dir\Debug\\" /Fd"cmTC_0d30c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d30c.dir\Debug\\" /Fd"cmTC_0d30c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c"
+  
+  SIZEOF_SIG_ATOMIC_T.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d30c.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d30c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d30c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_0d30c.dir\Debug\SIZEOF_SIG_ATOMIC_T.obj
+  cmTC_0d30c.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_0d30c.exe
+  cmTC_0d30c.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_0d30c.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_0d30c.dir\Debug\cmTC_0d30c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_0d30c.dir\Debug\cmTC_0d30c.tlog\cmTC_0d30c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_0d30c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.91
+
+
+Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE succeeded with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_64989.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:48 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_64989.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_64989.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_64989.dir\Debug\cmTC_64989.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_64989.dir\Debug\cmTC_64989.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIG_ATOMIC_T_NOT_VOLATILE /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64989.dir\Debug\\" /Fd"cmTC_64989.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIG_ATOMIC_T_NOT_VOLATILE /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_64989.dir\Debug\\" /Fd"cmTC_64989.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_64989.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_64989.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_64989.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_64989.dir\Debug\src.obj
+  cmTC_64989.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_64989.exe
+  cmTC_64989.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_64989.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_64989.dir\Debug\cmTC_64989.tlog\unsuccessfulbuild”。
+  正在对“cmTC_64989.dir\Debug\cmTC_64989.tlog\cmTC_64989.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_64989.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.89
+
+Source file was:
+
+    #ifdef HAVE_SIGNAL_H
+    #  include <signal.h>
+    #endif
+    int main(void) {
+      static volatile sig_atomic_t dummy = 0;
+      (void)dummy;
+      return 0;
+    }
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_3cd1a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 8/15/2018 12:28:49 AM。
+节点 1 上的项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_3cd1a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3cd1a.dir\Debug\”。
+  正在创建目录“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3cd1a.dir\Debug\cmTC_3cd1a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3cd1a.dir\Debug\cmTC_3cd1a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cd1a.dir\Debug\\" /Fd"cmTC_3cd1a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /I"C:\Git\ultrasound\third_party\curl-7.61.0\include" /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_SIGNAL_H /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cd1a.dir\Debug\\" /Fd"cmTC_3cd1a.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c"
+  
+  SIZEOF_STRUCT_SOCKADDR_STORAGE.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3cd1a.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3cd1a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3cd1a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3cd1a.dir\Debug\SIZEOF_STRUCT_SOCKADDR_STORAGE.obj
+  cmTC_3cd1a.vcxproj -> C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\Debug\cmTC_3cd1a.exe
+  cmTC_3cd1a.vcxproj -> C:/Git/ultrasound/third_party/curl-7.61.0/build/CMakeFiles/CMakeTmp/Debug/cmTC_3cd1a.pdb (Full PDB)
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3cd1a.dir\Debug\cmTC_3cd1a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3cd1a.dir\Debug\cmTC_3cd1a.tlog\cmTC_3cd1a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Git\ultrasound\third_party\curl-7.61.0\build\CMakeFiles\CMakeTmp\cmTC_3cd1a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.24
+
+

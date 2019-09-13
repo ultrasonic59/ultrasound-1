@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (mxmldoc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  mxml-string.c
+  mxml-set.c
+  mxml-search.c
+  mxml-private.c
+  mxml-node.c
+  mxml-index.c
+  mxml-get.c
+  mxml-file.c
+  mxml-entity.c
+  mxml-attr.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Git\ultrasound\third_party\mxml-2.11\vcnet\Debug\mxml1.dll) does not match the Linker's OutputFile property value (C:\Git\ultrasound\third_party\mxml-2.11\vcnet\mxml1.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+mxml-attr.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library mxml1.lib and object mxml1.exp
+  mxml1.vcxproj -> C:\Git\ultrasound\third_party\mxml-2.11\vcnet\Debug\mxml1.dll
+  mxml1.vcxproj -> Debug\mxml1.pdb (Full PDB)

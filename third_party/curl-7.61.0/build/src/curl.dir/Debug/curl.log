@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project 'C:\Git\ruds_app\third_party\curl-7.61.0\build\curl-7.61.0\build\lib\libcurl.vcxproj' does not exist.
+  Generating tool_hugehelp.c
+  系统找不到指定的路径。
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(171,5): error MSB6006: "cmd.exe" exited with code 3.

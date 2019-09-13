@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC724022-A940-3A19-BC92-6E5C2DAB1DE4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>quazip_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)quazip-0.7.6\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">quazip_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">quazip_staticd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)quazip-0.7.6\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">quazip_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">quazip_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)quazip-0.7.6\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">quazip_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">quazip_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)quazip-0.7.6\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">quazip_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">quazip_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;QUAZIP_BUILD;QT_CORE_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;QUAZIP_BUILD;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QUAZIP_BUILD;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QUAZIP_BUILD;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QUAZIP_BUILD;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QUAZIP_BUILD;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QUAZIP_BUILD;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;QUAZIP_BUILD;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Qt\Qt5.6.3\5.6.3\msvc2015\include;D:\Qt\Qt5.6.3\5.6.3\msvc2015\include\QtCore;D:\Qt\Qt5.6.3\5.6.3\msvc2015\.\mkspecs\win32-msvc2015;$(SolutionDir)quazip-0.7.6\quazip;$(SolutionDir)quazip-0.7.6\build\quazip;$(SolutionDir)zlib-1.2.11;$(SolutionDir)zlib-1.2.11\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\unzip.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\zip.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\JlCompress.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\qioapi.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quaadler32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quacrc32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quagzipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quaziodevice.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazip.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipdir.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipfileinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\quazip\quazipnewinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_JlCompress.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_ioapi.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_minizip_crypt.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quaadler32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quachecksum32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quacrc32.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quagzipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quaziodevice.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazip.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazip_global.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipdir.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipfile.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipfileinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_quazipnewinfo.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_unzip.cpp" />
+    <ClCompile Include="$(SolutionDir)quazip-0.7.6\build\quazip\moc_zip.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

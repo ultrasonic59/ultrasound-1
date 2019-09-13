@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Git/ultrasound/third_party/jsoncpp-1.8.4/src/jsontestrunner/CMakeLists.txt
+  CMake does not need to re-run because C:\Git\ultrasound\third_party\jsoncpp-1.8.4\build\x86\src\jsontestrunner\CMakeFiles\generate.stamp is up-to-date.
+  main.cpp
+  jsontestrunner_exe.vcxproj -> C:\Git\ultrasound\third_party\jsoncpp-1.8.4\build\x86\src\jsontestrunner\Debug\jsontestrunner_exe.exe

@@ -1,0 +1,7 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/jsoncpp-1.8.4/build/x86/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/jsoncpp-1.8.4/build/x86/src/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/jsoncpp-1.8.4/build/x86/src/lib_json/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/jsoncpp-1.8.4/build/x86/src/jsontestrunner/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/jsoncpp-1.8.4/build/x86/src/test_lib_json/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/jsoncpp-1.8.4/build/x86/include/CMakeFiles/generate.stamp is up-to-date.

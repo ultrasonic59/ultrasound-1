@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\source\ruds_app\third_party\apr-1.6.3\misc\win32\apr_app.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\source\ruds_app\third_party\apr-1.6.3\misc\win32\internal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\source\ruds_app\third_party\apr-1.6.3\build_output\apr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\source\ruds_app\third_party\apr-1.6.3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2D46D916-8BF8-31DC-BBD6-A281EEEBEED6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7A3F0A61-84AC-38C4-87D4-FB89E5093210}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿  Building Custom Rule C:/Git/ultrasound/third_party/zlib-1.2.11/CMakeLists.txt
+  CMake does not need to re-run because C:/Git/ultrasound/third_party/zlib-1.2.11/build/CMakeFiles/generate.stamp is up-to-date.
+  adler32.c
+  compress.c
+  crc32.c
+  deflate.c
+  gzclose.c
+  gzlib.c
+  gzread.c
+  gzwrite.c
+  inflate.c
+  infback.c
+  inftrees.c
+  inffast.c
+  trees.c
+  uncompr.c
+  zutil.c
+  Generating Code...
+     Creating library C:/Git/ultrasound/third_party/zlib-1.2.11/build/Debug/zlibd.lib and object C:/Git/ultrasound/third_party/zlib-1.2.11/build/Debug/zlibd.exp
+  zlib.vcxproj -> C:\Git\ultrasound\third_party\zlib-1.2.11\build\Debug\zlibd.dll
+  zlib.vcxproj -> C:/Git/ultrasound/third_party/zlib-1.2.11/build/Debug/zlibd.pdb (Full PDB)

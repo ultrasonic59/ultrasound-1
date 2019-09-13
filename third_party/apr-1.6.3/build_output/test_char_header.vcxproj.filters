@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)apr-1.6.3\CMakeLists.txt" />
+    <CustomBuild Include="$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\f724f1901950ce351a4108e6a430e7e4\apr_escape_test_char.h.rule" />
+    <CustomBuild Include="$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\dc17cd20bddf6adb949fb73025570f7a\test_char_header.rule" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\test_char_header" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CE947295-C648-3AD5-BDAF-820517CE546F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

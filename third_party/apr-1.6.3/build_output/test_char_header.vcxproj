@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9A316DAF-367E-323E-A5AD-CAA900833C6C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>test_char_header</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-1.6.3\build_output;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)apr-1.6.3\include\arch\win32;$(SolutionDir)apr-1.6.3\include\arch\unix;$(SolutionDir)apr-1.6.3\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-1.6.3\build_output;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)apr-1.6.3\include\arch\win32;$(SolutionDir)apr-1.6.3\include\arch\unix;$(SolutionDir)apr-1.6.3\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-1.6.3\build_output;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)apr-1.6.3\include\arch\win32;$(SolutionDir)apr-1.6.3\include\arch\unix;$(SolutionDir)apr-1.6.3\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>$(SolutionDir)apr-1.6.3\build_output;$(SolutionDir)apr-1.6.3\include;$(SolutionDir)apr-1.6.3\include\arch\win32;$(SolutionDir)apr-1.6.3\include\arch\unix;$(SolutionDir)apr-1.6.3\include\private;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)apr-1.6.3\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule $(SolutionDir)/apr-1.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-1.6.3 -B$(SolutionDir)/apr-1.6.3/build_output --check-stamp-file $(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/apr-1.6.3/CMakeLists.txt;$(SolutionDir)apr-1.6.3\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)apr-1.6.3\include\apr.hwc;$(SolutionDir)apr-1.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule $(SolutionDir)/apr-1.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-1.6.3 -B$(SolutionDir)/apr-1.6.3/build_output --check-stamp-file $(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)/apr-1.6.3/CMakeLists.txt;$(SolutionDir)apr-1.6.3\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)apr-1.6.3\include\apr.hwc;$(SolutionDir)apr-1.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule $(SolutionDir)/apr-1.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-1.6.3 -B$(SolutionDir)/apr-1.6.3/build_output --check-stamp-file $(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)/apr-1.6.3/CMakeLists.txt;$(SolutionDir)apr-1.6.3\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)apr-1.6.3\include\apr.hwc;$(SolutionDir)apr-1.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule $(SolutionDir)/apr-1.6.3/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -H$(SolutionDir)/apr-1.6.3 -B$(SolutionDir)/apr-1.6.3/build_output --check-stamp-file $(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)/apr-1.6.3/CMakeLists.txt;$(SolutionDir)apr-1.6.3\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\3.10.1\CMakeCCompiler.cmake;$(SolutionDir)apr-1.6.3\include\apr.hwc;$(SolutionDir)apr-1.6.3\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\f724f1901950ce351a4108e6a430e7e4\apr_escape_test_char.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating character tables, apr_escape_test_char.h, for current locale</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+$(Configuration)\gen_test_char.exe &gt; $(SolutionDir)/apr-1.6.3/build_output/apr_escape_test_char.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/f724f1901950ce351a4108e6a430e7e4/apr_escape_test_char.h.rule;$(SolutionDir)apr-1.6.3\build_output\Debug\gen_test_char.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating character tables, apr_escape_test_char.h, for current locale</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+$(Configuration)\gen_test_char.exe &gt; $(SolutionDir)/apr-1.6.3/build_output/apr_escape_test_char.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/f724f1901950ce351a4108e6a430e7e4/apr_escape_test_char.h.rule;$(SolutionDir)apr-1.6.3\build_output\Release\gen_test_char.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating character tables, apr_escape_test_char.h, for current locale</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+$(Configuration)\gen_test_char.exe &gt; $(SolutionDir)/apr-1.6.3/build_output/apr_escape_test_char.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/f724f1901950ce351a4108e6a430e7e4/apr_escape_test_char.h.rule;$(SolutionDir)apr-1.6.3\build_output\MinSizeRel\gen_test_char.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating character tables, apr_escape_test_char.h, for current locale</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+$(Configuration)\gen_test_char.exe &gt; $(SolutionDir)/apr-1.6.3/build_output/apr_escape_test_char.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/f724f1901950ce351a4108e6a430e7e4/apr_escape_test_char.h.rule;$(SolutionDir)apr-1.6.3\build_output\RelWithDebInfo\gen_test_char.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\dc17cd20bddf6adb949fb73025570f7a\test_char_header.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/dc17cd20bddf6adb949fb73025570f7a/test_char_header.rule;$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\test_char_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/dc17cd20bddf6adb949fb73025570f7a/test_char_header.rule;$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\test_char_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/dc17cd20bddf6adb949fb73025570f7a/test_char_header.rule;$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\test_char_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)/apr-1.6.3/build_output/CMakeFiles/dc17cd20bddf6adb949fb73025570f7a/test_char_header.rule;$(SolutionDir)apr-1.6.3\build_output\apr_escape_test_char.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\test_char_header</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(SolutionDir)apr-1.6.3\build_output\CMakeFiles\test_char_header" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(SolutionDir)apr-1.6.3\build_output\ZERO_CHECK.vcxproj">
+      <Project>{085DF9CB-4665-3449-B9A6-E668223D5821}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

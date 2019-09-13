@@ -1,0 +1,6 @@
+﻿  apr_ldap_init.c
+  apr_ldap_option.c
+  apr_ldap_rebind.c
+  Generating Code...
+     Creating library C:/Git/ultrasound/third_party/apr-util-1.6.1/build_output/Release/apr_ldap-1.lib and object C:/Git/ultrasound/third_party/apr-util-1.6.1/build_output/Release/apr_ldap-1.exp
+  apr_ldap-1.vcxproj -> C:\Git\ultrasound\third_party\apr-util-1.6.1\build_output\Release\apr_ldap-1.dll
